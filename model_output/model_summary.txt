@@ -1,0 +1,42 @@
+Basketball Model Training Summary
+Generated: 2026-05-23 11:42:48
+
+Model Training Summary
+
+Best Model: Ridge
+
+Validation Performance:
+  RMSE:      12.46 pts
+  R²:        0.2242
+  Accuracy:  69.2%
+  Log Loss:  0.5740
+  Brier:     0.1970
+  Sigma:     11.98 pts (used for win probability)
+
+Benchmark Comparison:
+              RMSE      R²        Accuracy
+  Naive:      14.39      0.2639    66.1%
+  Elo:        12.34      0.2639    67.3%
+  Vegas:      11.30      0.3975    74.4%
+  Best model: 12.46      0.2242    69.2%
+ 
+BEATS ELO:     NO
+BEATS VEGAS:   NO
+ 
+Elastic Net FEATURE SELECTION:
+  Features kept:   14
+  Features zeroed: 6
+  (zeroed features add no value beyond other features)
+ 
+XGBOOST TOP FEATURES:
+diff_elo              0.229713
+diff_best_net_eff     0.091993
+diff_pyth_exp         0.089166
+neutral_site          0.061770
+has_seed              0.051284
+diff_adj_off_eff      0.047705
+diff_seed             0.041874
+diff_to_ratio         0.036793
+diff_ft_rate          0.031937
+diff_tempo_control    0.031923
+

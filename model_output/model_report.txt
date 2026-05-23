@@ -1,0 +1,410 @@
+
+============================================================
+feature_importance.png
+============================================================
+Top 30 XGBoost features:
+diff_adj_net               0.076406
+diff_pyth_exp              0.052592
+diff_elo                   0.048049
+home_adj_rank              0.026902
+away_adj_net               0.022032
+away_srs                   0.017506
+home_srs                   0.017216
+away_roll_game_score       0.016385
+away_roll_off_rating       0.015416
+away_adj_rank              0.015177
+away_elo_pre               0.013192
+home_adj_net               0.010392
+away_roll_fg_pct           0.009896
+home_roll_pyth_exp         0.009742
+away_adj_off               0.009689
+away_adj_def               0.009687
+home_roll_fg_pct           0.009630
+home_roll_blocks           0.009437
+home_elo_pre               0.008879
+home_ap_rank               0.008804
+home_roll_off_rating       0.008226
+away_roll_true_shooting    0.008173
+diff_ap_rank               0.008167
+away_roll_adj_drb_rate     0.008064
+away_seed                  0.008011
+home_adj_off               0.007958
+diff_efg                   0.007777
+home_roll_adj_orb_rate     0.007500
+diff_off_rating            0.007396
+diff_adj_orb_rate          0.007371
+
+============================================================
+feature_importance.png
+============================================================
+Top 30 XGBoost features:
+diff_adj_net                  0.098218
+diff_elo                      0.055873
+diff_pyth_exp                 0.025654
+away_roll_off_rating          0.017162
+home_adj_rank                 0.016189
+away_srs                      0.015439
+away_adj_rank                 0.014845
+home_srs                      0.014129
+away_roll_game_score          0.013908
+away_adj_net                  0.013302
+away_elo_pre                  0.010764
+away_roll_to_rate_per_poss    0.010602
+home_ap_rank                  0.010438
+diff_ap_rank                  0.009710
+away_ap_rank                  0.009546
+home_roll_true_shooting       0.009404
+home_adj_off                  0.009315
+home_roll_blocks              0.009200
+away_roll_avg_poss            0.009190
+home_roll_ft_made             0.009122
+away_adj_def                  0.008708
+home_elo_pre                  0.008463
+home_roll_pyth_exp            0.008222
+diff_efg                      0.008129
+away_roll_pace                0.007919
+home_seed                     0.007832
+diff_off_rating               0.007794
+home_roll_adj_orb_rate        0.007751
+away_roll_turnovers           0.007728
+away_roll_to_ratio            0.007684
+
+============================================================
+feature_importance.png
+============================================================
+Top 30 XGBoost features:
+diff_adj_net               0.076038
+diff_elo                   0.061319
+diff_pyth_exp              0.035969
+away_adj_rank              0.026871
+home_adj_rank              0.021325
+home_srs                   0.016529
+away_srs                   0.016423
+away_elo_pre               0.015739
+away_adj_net               0.015733
+away_roll_adj_drb_rate     0.011595
+home_elo_pre               0.010913
+diff_ap_rank               0.010503
+home_adj_net               0.010341
+away_roll_pyth_exp         0.009868
+away_adj_def               0.009381
+away_roll_turnovers        0.009077
+home_ap_rank               0.008874
+away_roll_pace             0.008810
+home_adj_def               0.008474
+away_roll_true_shooting    0.008456
+diff_unforced_to_rate      0.008311
+home_adj_off               0.008109
+away_ap_rank               0.008101
+home_roll_blocks           0.008079
+diff_efg                   0.007936
+away_roll_game_score       0.007686
+home_roll_pts_fastbrk      0.007536
+away_roll_avg_poss         0.007513
+home_roll_adj_orb_rate     0.007413
+away_adj_off               0.007319
+
+============================================================
+feature_importance.png
+============================================================
+Top 30 XGBoost features:
+diff_elo                   0.059684
+diff_roll_net_eff          0.050807
+diff_pyth_exp              0.039943
+away_elo_pre               0.015516
+diff_roll_off_eff          0.012910
+adj_net_if_available       0.011949
+away_ap_rank               0.011804
+home_elo_pre               0.011713
+diff_ap_rank               0.011621
+away_roll_fg_made          0.009797
+home_roll_fg_att           0.009545
+home_ap_rank               0.009529
+away_roll_off_rating       0.009473
+away_roll_turnovers        0.008965
+away_seed                  0.008948
+home_roll_assists          0.008797
+away_roll_points           0.008788
+away_roll_pace             0.008783
+away_roll_shot_sel_rate    0.008731
+away_roll_fg_pct           0.008668
+home_roll_blocks           0.008609
+away_roll_net_eff          0.008607
+home_seed                  0.008472
+home_roll_turnovers        0.008435
+home_roll_pts_paint        0.008353
+diff_adj_orb_rate          0.008325
+diff_tempo_control         0.008322
+home_roll_efg_pct          0.008277
+home_roll_off_reb          0.008269
+away_roll_efg_pct          0.008252
+
+============================================================
+feature_importance.png
+============================================================
+Top 30 XGBoost features:
+diff_roll_net_eff             0.053849
+diff_elo                      0.051286
+diff_pyth_exp                 0.039571
+diff_off_rating               0.025318
+diff_roll_def_eff             0.017438
+diff_best_net_eff             0.015757
+away_elo_pre                  0.014943
+home_elo_pre                  0.014228
+home_ap_rank                  0.011111
+adj_net_if_available          0.010581
+diff_adj_off_eff              0.010402
+away_ap_rank                  0.010265
+diff_ap_rank                  0.010226
+diff_roll_off_eff             0.010030
+away_roll_off_rating          0.009931
+away_roll_turnovers           0.009442
+home_roll_blocks              0.008516
+diff_adj_orb_rate             0.008128
+away_roll_pace                0.008124
+away_roll_adj_drb_rate        0.007965
+home_roll_pts_fastbrk         0.007907
+home_roll_off_eff_game        0.007716
+away_roll_pyth_exp            0.007654
+away_roll_net_eff             0.007616
+away_roll_game_score          0.007540
+away_roll_true_shooting       0.007514
+away_roll_tp_pct              0.007409
+home_roll_adj_off_eff_game    0.007315
+away_roll_pts_off_to          0.007284
+home_roll_assists             0.007238
+
+============================================================
+feature_importance.png
+============================================================
+Top 30 XGBoost features:
+diff_elo                    0.258934
+neutral_site                0.062776
+diff_pyth_exp               0.059629
+diff_best_net_eff           0.049335
+diff_ap_rank                0.047320
+diff_adj_off_eff            0.035256
+away_seed                   0.032750
+diff_to_ratio               0.028684
+diff_roll_net_eff           0.026275
+diff_efg                    0.025555
+diff_adj_def_eff            0.025312
+diff_tempo_control          0.025200
+diff_mom_to_ratio           0.024480
+diff_mom_orb_pct            0.024265
+diff_shot_sel_disruption    0.024160
+diff_orb_pct                0.024065
+diff_ft_rate                0.023904
+diff_turnover_disruption    0.023047
+diff_mom_efg                0.023037
+diff_orb_disruption         0.022844
+pace_mismatch               0.022781
+diff_pyth_luck              0.022771
+home_seed                   0.022545
+diff_unforced_to_rate       0.022502
+diff_mom_ft_rate            0.021868
+diff_forced_to_rate         0.020707
+
+============================================================
+feature_importance.png
+============================================================
+Top 30 XGBoost features:
+diff_elo                    0.254768
+diff_pyth_exp               0.057908
+neutral_site                0.057230
+diff_best_net_eff           0.053052
+diff_ap_rank                0.042277
+diff_adj_off_eff            0.039493
+away_seed                   0.032506
+diff_to_ratio               0.030216
+diff_mom_orb_pct            0.029752
+diff_roll_net_eff           0.027070
+diff_orb_pct                0.025754
+diff_shot_sel_disruption    0.025744
+diff_tempo_control          0.024878
+diff_mom_to_ratio           0.024431
+diff_efg                    0.024422
+diff_ft_rate                0.024020
+diff_adj_def_eff            0.023975
+diff_mom_efg                0.023628
+diff_unforced_to_rate       0.023525
+diff_pyth_luck              0.023451
+pace_mismatch               0.022527
+diff_turnover_disruption    0.022476
+diff_mom_ft_rate            0.022164
+home_seed                   0.021683
+diff_forced_to_rate         0.021629
+diff_orb_disruption         0.021424
+
+============================================================
+feature_importance.png
+============================================================
+Top 30 XGBoost features:
+diff_elo                    0.257812
+diff_pyth_exp               0.122951
+neutral_site                0.066406
+diff_best_net_eff           0.060304
+diff_adj_off_eff            0.050650
+diff_ap_rank                0.050527
+diff_seed                   0.042876
+diff_mom_to_ratio           0.032850
+diff_tempo_control          0.032137
+diff_mom_orb_pct            0.031313
+diff_unforced_to_rate       0.030169
+diff_mom_ft_rate            0.029832
+diff_turnover_disruption    0.029409
+diff_mom_efg                0.028961
+diff_shot_sel_disruption    0.027677
+diff_orb_disruption         0.027543
+pace_mismatch               0.027006
+diff_forced_to_rate         0.025820
+diff_pyth_luck              0.025757
+has_seed                    0.000000
+
+============================================================
+feature_importance.png
+============================================================
+Top 30 XGBoost features:
+diff_elo                    0.246603
+diff_pyth_exp               0.120668
+diff_best_net_eff           0.094394
+neutral_site                0.067162
+diff_adj_off_eff            0.046405
+has_seed                    0.044966
+diff_ap_rank                0.044434
+diff_seed                   0.043174
+diff_mom_efg                0.028646
+diff_mom_to_ratio           0.028489
+diff_mom_orb_pct            0.026076
+diff_orb_disruption         0.025438
+diff_tempo_control          0.024944
+diff_shot_sel_disruption    0.024166
+diff_mom_ft_rate            0.023927
+diff_turnover_disruption    0.023914
+diff_unforced_to_rate       0.023806
+pace_mismatch               0.022885
+diff_forced_to_rate         0.020421
+diff_pyth_luck              0.019482
+
+============================================================
+feature_importance.png
+============================================================
+Top 30 XGBoost features:
+diff_elo                    0.318160
+diff_pyth_exp               0.093925
+neutral_site                0.072136
+diff_adj_off_eff            0.051194
+diff_seed                   0.043112
+diff_orb_pct                0.038040
+diff_tempo_control          0.035896
+diff_to_ratio               0.035346
+diff_turnover_disruption    0.033354
+diff_adj_def_eff            0.032949
+diff_ft_rate                0.032758
+diff_efg                    0.032676
+diff_forced_to_rate         0.032664
+diff_shot_sel_disruption    0.032458
+diff_unforced_to_rate       0.031144
+pace_mismatch               0.028630
+diff_pyth_luck              0.027789
+diff_orb_disruption         0.027771
+has_seed                    0.000000
+
+============================================================
+feature_importance.png
+============================================================
+Top 30 XGBoost features:
+diff_elo                    0.223364
+diff_best_net_eff           0.096702
+diff_pyth_exp               0.080984
+neutral_site                0.063941
+diff_adj_off_eff            0.048470
+has_seed                    0.045919
+diff_seed                   0.044649
+diff_to_ratio               0.036239
+diff_mom_efg                0.033643
+diff_adj_def_eff            0.032810
+diff_mom_orb_pct            0.032804
+diff_ft_rate                0.032408
+diff_turnover_disruption    0.031262
+diff_tempo_control          0.030194
+diff_orb_disruption         0.029259
+diff_shot_sel_disruption    0.029186
+pace_mismatch               0.028594
+diff_forced_to_rate         0.027552
+diff_unforced_to_rate       0.026474
+diff_pyth_luck              0.025545
+
+============================================================
+feature_importance.png
+============================================================
+Top 30 XGBoost features:
+diff_pyth_exp               0.214122
+diff_best_net_eff           0.101930
+neutral_site                0.074558
+diff_adj_off_eff            0.068359
+diff_seed                   0.063570
+diff_to_ratio               0.043650
+diff_tempo_control          0.038060
+diff_mom_orb_pct            0.035516
+diff_mom_efg                0.034721
+diff_adj_def_eff            0.034525
+diff_unforced_to_rate       0.033744
+diff_orb_disruption         0.033457
+diff_shot_sel_disruption    0.033337
+diff_turnover_disruption    0.032919
+diff_ft_rate                0.032775
+has_seed                    0.032507
+diff_pyth_luck              0.032071
+pace_mismatch               0.031926
+diff_forced_to_rate         0.028253
+
+============================================================
+feature_importance.png
+============================================================
+Top 30 XGBoost features:
+diff_elo                    0.196748
+diff_pyth_exp               0.131455
+diff_best_net_eff           0.086711
+neutral_site                0.058587
+has_seed                    0.052712
+diff_adj_off_eff            0.049078
+diff_seed                   0.043720
+diff_to_ratio               0.038392
+diff_mom_efg                0.032883
+diff_adj_def_eff            0.031845
+diff_ft_rate                0.029982
+diff_tempo_control          0.029638
+diff_mom_orb_pct            0.029563
+diff_turnover_disruption    0.029200
+diff_shot_sel_disruption    0.028297
+pace_mismatch               0.027070
+diff_orb_disruption         0.026751
+diff_unforced_to_rate       0.026630
+diff_forced_to_rate         0.025913
+diff_pyth_luck              0.024823
+
+============================================================
+feature_importance.png
+============================================================
+Top 30 XGBoost features:
+diff_elo                    0.229713
+diff_best_net_eff           0.091993
+diff_pyth_exp               0.089166
+neutral_site                0.061770
+has_seed                    0.051284
+diff_adj_off_eff            0.047705
+diff_seed                   0.041874
+diff_to_ratio               0.036793
+diff_ft_rate                0.031937
+diff_tempo_control          0.031923
+diff_turnover_disruption    0.031270
+diff_mom_efg                0.030728
+diff_orb_disruption         0.030239
+diff_mom_orb_pct            0.030113
+diff_shot_sel_disruption    0.030097
+diff_adj_def_eff            0.029280
+diff_forced_to_rate         0.027345
+pace_mismatch               0.027146
+diff_unforced_to_rate       0.025097
+diff_pyth_luck              0.024526

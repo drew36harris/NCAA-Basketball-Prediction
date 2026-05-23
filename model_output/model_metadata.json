@@ -1,0 +1,43 @@
+{
+  "model_name": "Ridge",
+  "sigma": 11.98426148176721,
+  "features": [
+    "diff_to_ratio",
+    "diff_ft_rate",
+    "diff_best_net_eff",
+    "diff_adj_off_eff",
+    "diff_adj_def_eff",
+    "diff_elo",
+    "neutral_site",
+    "diff_seed",
+    "has_seed",
+    "diff_pyth_exp",
+    "diff_pyth_luck",
+    "diff_tempo_control",
+    "diff_shot_sel_disruption",
+    "diff_turnover_disruption",
+    "diff_orb_disruption",
+    "pace_mismatch",
+    "diff_forced_to_rate",
+    "diff_unforced_to_rate",
+    "diff_mom_efg",
+    "diff_mom_orb_pct"
+  ],
+  "validation_season": 2024,
+  "test_season": 2025,
+  "val_rmse": 12.459952173145405,
+  "val_r2": 0.2242159119860334,
+  "val_accuracy": 0.6924643584521385,
+  "benchmarks": {
+    "naive_rmse": 14.39,
+    "elo_rmse": 12.34,
+    "spread_rmse": 11.3,
+    "naive_acc": 0.661,
+    "elo_acc": 0.673,
+    "spread_acc": 0.744,
+    "elo_r2": 0.2639,
+    "spread_r2": 0.3975,
+    "ncaa_elo_acc": 0.672
+  },
+  "trained_at": "2026-05-23T11:54:21.178322"
+}
