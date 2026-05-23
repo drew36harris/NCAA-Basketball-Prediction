@@ -1,0 +1,42 @@
+Basketball Prediction — Benchmark Summary
+Generated: 2026-05-23 12:07:37
+
+-----------------------------------------
+Benchmaark Summary - Performance Ladders
+-----------------------------------------
+
+Classifcation (win/loss):
+- Naive (Home Win): Accuracy = 66.1%, Log Loss = 0.6401, Brier Score = 0.2240
+- Elo (Pick Higher Elo): Accuracy = 67.4%, Log Loss = 0.6039, Brier Score = 0.2087
+- Vegas Spread: Accuracy = 74.4%, Log Loss = 0.5066, Brier Score = 0.1698
+
+Regression (point diff):
+- Naive (Mean Point Diff): RMSE = 14.39 points, MAE = 11.23 points, R² = -0.0000
+- Elo (Linear Regression): RMSE = 12.34 points, MAE = 9.72 points, R² = 0.2643
+- Vegas Spread: RMSE = 11.29 points, MAE = 8.91 points, R² = 0.3983
+
+Elo Accuracy by Split:
+- Training: 67.8%
+- Validation: 62.9%
+- Test: nan%
+
+Tournament Specific:
+- Postseason: 62.3%
+- NCAA: 67.2%
+
+-----------------------------------------
+What to Beat:
+
+- Classifcation accuracy > 67.4% (Beat Elo, model is learning signal beyond just team strength)
+- Classification accuracy > 74.4% (Beat Vegas Spread, model is strong enough to compete with market predictions)
+
+- RMSE < 12.34 points (Beat Elo regression, model is better at predicting point differentials than a simple linear regression on Elo)
+- RMSE < 11.29 points (Beat Vegas Spread, model is better at predicting point differentials than the Vegas market)
+
+- R2 > 0.2643 (Model explains more variance in point differentials than Elo regression)
+- Log loss < 0.6039 (Model's probabilistic predictions are more accurate than those derived from Elo regression)
+
+Tournament target:
+
+- NCAA accuracy > 67.2% (Model performs well in the most important games of the season)
+

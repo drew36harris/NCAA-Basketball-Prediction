@@ -1,0 +1,88 @@
+
+============================================================
+classification_benchmarks.png
+============================================================
+Naive: Acc = {naive_acc:.1%}, Log Loss = {naive_logloss:.4f}, Brier = {naive_brier:.4f}
+Elo: Acc = {elo_acc:.1%}, Log Loss = {elo_logloss:.4f}, Brier = {elo_brier:.4f}
+Vegas Spread: Acc = {spread_acc:.1%}, Log Loss = {spread_logloss:.4f}, Brier = {spread_brier:.4f}
+
+
+============================================================
+regression_benchmarks.png
+============================================================
+Naive: RMSE = {naive_rmse:.2f}, MAE = {naive_mae:.2f}, R² = {naive_r2:.4f}
+Elo Regression: RMSE = {elo_rmse:.2f}, MAE = {elo_mae:.2f}, R² = {elo_r2:.4f}
+Vegas Spread: RMSE = {spread_rmse:.2f}, MAE = {spread_mae:.2f}, R² = {spread_r2:.4f}
+
+
+============================================================
+tournament_benchmarks.png
+============================================================
+Elo Accuracy - All: 68.2%, Postseason: 64.4%, NCAA: 67.8%
+
+
+============================================================
+classification_benchmarks.png
+============================================================
+Naive: Acc = 66.1%, Log Loss = 0.6406, Brier = 0.2242
+Elo: Acc = 67.5%, Log Loss = 0.6032, Brier = 0.2084
+Vegas Spread: Acc = 74.3%, Log Loss = 0.5075, Brier = 0.1702
+
+
+============================================================
+regression_benchmarks.png
+============================================================
+Naive: RMSE = 14.39, MAE = 11.24, R² = -0.0000
+Elo Regression: RMSE = 12.34, MAE = 9.72, R² = 0.2646
+Vegas Spread: RMSE = 11.30, MAE = 8.93, R² = 0.3972
+
+
+============================================================
+tournament_benchmarks.png
+============================================================
+Elo Accuracy - All: 67.5%, Postseason: 62.3%, NCAA: 67.2%
+
+
+============================================================
+classification_benchmarks.png
+============================================================
+Naive: Acc = 66.1%, Log Loss = 0.6404, Brier = 0.2241
+Elo: Acc = 67.3%, Log Loss = 0.6043, Brier = 0.2089
+Vegas Spread: Acc = 74.4%, Log Loss = 0.5071, Brier = 0.1700
+
+
+============================================================
+regression_benchmarks.png
+============================================================
+Naive: RMSE = 14.39, MAE = 11.23, R² = -0.0000
+Elo Regression: RMSE = 12.34, MAE = 9.73, R² = 0.2639
+Vegas Spread: RMSE = 11.30, MAE = 8.92, R² = 0.3975
+
+
+============================================================
+tournament_benchmarks.png
+============================================================
+Elo Accuracy - All: 67.3%, Postseason: 62.3%, NCAA: 67.2%
+
+
+============================================================
+classification_benchmarks.png
+============================================================
+Naive: Acc = 66.1%, Log Loss = 0.6401, Brier = 0.2240
+Elo: Acc = 67.4%, Log Loss = 0.6039, Brier = 0.2087
+Vegas Spread: Acc = 74.4%, Log Loss = 0.5066, Brier = 0.1698
+
+
+============================================================
+regression_benchmarks.png
+============================================================
+Naive: RMSE = 14.39, MAE = 11.23, R² = -0.0000
+Elo Regression: RMSE = 12.34, MAE = 9.72, R² = 0.2643
+Vegas Spread: RMSE = 11.29, MAE = 8.91, R² = 0.3983
+
+
+============================================================
+tournament_benchmarks.png
+============================================================
+Elo Accuracy - All: 67.4%, Postseason: 62.3%, NCAA: 67.2%
+
