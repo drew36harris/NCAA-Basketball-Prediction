@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data files
+data/
+outputs/
+model_output/
+eda_output/
+baseline_output/
+*.csv
+*.joblib
+
+# IDE
+*.ipynb_checkpoints/
