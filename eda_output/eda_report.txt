@@ -1,0 +1,2457 @@
+
+============================================================
+target_distribution.png
+============================================================
+Home win rate: 66.1%
+Mean point diff: +5.93
+Std point diff: 14.39
+Tournament home win rate: 66.5% (neutral site games included)
+Regular season home win rate: 65.9%
+
+============================================================
+season_coverage.png
+============================================================
+ season  games  home_wr  avg_diff  tourn_games
+   2014    519 0.655106  5.670520          144
+   2015    527 0.658444  5.309298          145
+   2016    534 0.661049  6.380150          147
+   2017    519 0.684008  6.410405          125
+   2018    486 0.648148  5.251029          130
+   2019    520 0.692308  6.553846          140
+   2020    368 0.625000  4.184783            0
+   2021    364 0.659341  7.788462           87
+   2022    482 0.630705  5.251037          130
+   2023    459 0.697168  6.546841          112
+   2024    491 0.645621  5.912424          120
+
+============================================================
+missing_values.png
+============================================================
+Columns with missing data:
+away_seed                        87.454925
+home_seed                        87.454925
+tournament                       78.231163
+over_under                       42.095274
+spread                           38.944771
+excitement                        6.054280
+state                             2.865819
+diff_adj_net                      1.556273
+away_adj_off                      1.214652
+away_adj_def                      1.214652
+away_adj_rank                     1.214652
+away_adj_net                      1.214652
+diff_tempo_control                0.910989
+away_roll_tempo_control           0.512431
+away_roll_to_disruption           0.512431
+home_roll_to_disruption           0.436515
+home_roll_tempo_control           0.436515
+diff_srs                          0.398558
+away_srs                          0.379579
+home_adj_def                      0.360600
+home_adj_rank                     0.360600
+home_adj_net                      0.360600
+home_adj_off                      0.360600
+diff_off_rating                   0.132853
+pace_mismatch                     0.132853
+diff_to_ratio                     0.132853
+diff_shot_sel_disruption          0.113874
+diff_orb_disruption               0.113874
+home_roll_avg_poss                0.094895
+home_roll_off_rating              0.094895
+home_roll_pace                    0.094895
+home_roll_to_ratio                0.094895
+home_roll_to_rate_per_poss        0.094895
+home_roll_shot_sel_disruption     0.056937
+away_roll_orb_disruption          0.056937
+away_roll_shot_sel_disruption     0.056937
+home_roll_orb_disruption          0.056937
+away_roll_avg_poss                0.037958
+away_roll_to_rate_per_poss        0.037958
+away_roll_off_rating              0.037958
+away_roll_pace                    0.037958
+away_roll_to_ratio                0.037958
+away_roll_tp_made                 0.018979
+away_roll_tp_pct                  0.018979
+away_roll_def_reb                 0.018979
+away_roll_off_reb                 0.018979
+home_srs                          0.018979
+diff_efg                          0.018979
+diff_pyth_luck                    0.018979
+diff_pyth_exp                     0.018979
+away_roll_fg_att                  0.018979
+away_roll_fg_made                 0.018979
+away_roll_ft_att                  0.018979
+away_roll_total_reb               0.018979
+away_roll_fg_pct                  0.018979
+away_roll_ft_rate                 0.018979
+away_roll_orb_pct                 0.018979
+away_roll_efg_pct                 0.018979
+away_roll_turnovers               0.018979
+away_roll_pts_paint               0.018979
+away_roll_blocks                  0.018979
+away_roll_pts_fastbrk             0.018979
+away_roll_assists                 0.018979
+away_roll_pts_off_to              0.018979
+away_roll_pyth_luck               0.018979
+away_roll_pyth_exp                0.018979
+away_roll_steals                  0.018979
+away_roll_adj_orb_rate            0.018979
+away_roll_adj_drb_rate            0.018979
+away_roll_shot_sel_rate           0.018979
+away_roll_tp_att                  0.018979
+away_roll_ft_made                 0.018979
+diff_adj_drb_rate                 0.018979
+diff_adj_orb_rate                 0.018979
+diff_orb_pct                      0.018979
+diff_ft_rate                      0.018979
+away_roll_true_shooting           0.018979
+away_roll_game_score              0.018979
+
+============================================================
+missing_values_by_year.png
+============================================================
+Missing values by season (rows = seasons, columns = features)
+
+============================================================
+correlation_check.png
+============================================================
+Top 15 most correlated:
+home_won              0.762660
+diff_srs              0.633265
+spread               -0.630742
+diff_elo              0.514496
+diff_pyth_exp         0.387278
+away_srs             -0.362706
+away_adj_rank         0.343891
+home_srs              0.326285
+home_adj_rank        -0.316258
+diff_adj_net          0.304282
+away_elo_pre         -0.286034
+home_seed            -0.274370
+diff_efg              0.258318
+away_roll_pyth_exp   -0.255157
+away_seed             0.254566
+
+Bottom 5 (weakest signal):
+away_roll_orb_disruption   -0.008913
+away_roll_fg_att           -0.008320
+home_roll_pts_fastbrk      -0.004939
+home_roll_shot_sel_rate    -0.001680
+away_roll_to_disruption     0.001278
+
+============================================================
+target_distribution.png
+============================================================
+Home win rate: 66.1%
+Mean point diff: +5.94
+Std point diff: 14.39
+Tournament home win rate: 66.5% (neutral site games included)
+Regular season home win rate: 66.0%
+
+============================================================
+season_coverage.png
+============================================================
+ season  games  home_wr  avg_diff  tourn_games
+   2014    521 0.656430  5.681382          144
+   2015    527 0.658444  5.309298          145
+   2016    534 0.661049  6.380150          147
+   2017    518 0.683398  6.370656          125
+   2018    486 0.648148  5.251029          130
+   2019    520 0.692308  6.553846          140
+   2020    366 0.625683  4.297814            0
+   2021    364 0.659341  7.788462           87
+   2022    483 0.631470  5.258799          130
+   2023    461 0.698482  6.577007          112
+   2024    491 0.645621  5.912424          120
+
+============================================================
+missing_values.png
+============================================================
+Columns with missing data:
+away_seed                        87.459685
+home_seed                        87.459685
+tournament                       78.239423
+over_under                       42.117245
+spread                           38.967938
+excitement                        6.070954
+state                             2.864732
+diff_adj_net                      1.555682
+away_adj_def                      1.214191
+away_adj_off                      1.214191
+away_adj_rank                     1.214191
+away_adj_net                      1.214191
+diff_tempo_control                0.910643
+away_roll_tempo_control           0.512237
+away_roll_to_disruption           0.512237
+home_roll_tempo_control           0.436350
+home_roll_to_disruption           0.436350
+diff_srs                          0.398406
+away_srs                          0.379435
+home_adj_rank                     0.360463
+home_adj_net                      0.360463
+home_adj_off                      0.360463
+home_adj_def                      0.360463
+diff_unforced_to_rate             0.132802
+diff_to_ratio                     0.132802
+pace_mismatch                     0.132802
+diff_off_rating                   0.132802
+diff_orb_disruption               0.113830
+diff_shot_sel_disruption          0.113830
+home_roll_to_rate_per_poss        0.094859
+home_roll_avg_poss                0.094859
+home_roll_unforced_to_rate        0.094859
+home_roll_pace                    0.094859
+home_roll_to_ratio                0.094859
+home_roll_off_rating              0.094859
+home_roll_orb_disruption          0.056915
+away_roll_orb_disruption          0.056915
+away_roll_shot_sel_disruption     0.056915
+home_roll_shot_sel_disruption     0.056915
+away_roll_off_rating              0.037943
+away_roll_to_ratio                0.037943
+away_roll_pace                    0.037943
+away_roll_avg_poss                0.037943
+away_roll_to_rate_per_poss        0.037943
+away_roll_unforced_to_rate        0.037943
+away_roll_blocks                  0.018972
+diff_pyth_exp                     0.018972
+diff_adj_drb_rate                 0.018972
+away_roll_ft_att                  0.018972
+away_roll_off_reb                 0.018972
+away_roll_ft_made                 0.018972
+home_srs                          0.018972
+diff_efg                          0.018972
+diff_orb_pct                      0.018972
+diff_forced_to_rate               0.018972
+diff_pyth_luck                    0.018972
+away_roll_pts_paint               0.018972
+away_roll_pts_fastbrk             0.018972
+away_roll_tp_pct                  0.018972
+away_roll_tp_att                  0.018972
+away_roll_tp_made                 0.018972
+away_roll_assists                 0.018972
+away_roll_ft_rate                 0.018972
+away_roll_fg_pct                  0.018972
+away_roll_efg_pct                 0.018972
+away_roll_orb_pct                 0.018972
+away_roll_fg_made                 0.018972
+away_roll_fg_att                  0.018972
+away_roll_turnovers               0.018972
+away_roll_steals                  0.018972
+away_roll_game_score              0.018972
+away_roll_true_shooting           0.018972
+away_roll_adj_drb_rate            0.018972
+away_roll_adj_orb_rate            0.018972
+away_roll_forced_to_rate          0.018972
+away_roll_shot_sel_rate           0.018972
+away_roll_def_reb                 0.018972
+away_roll_total_reb               0.018972
+diff_adj_orb_rate                 0.018972
+diff_ft_rate                      0.018972
+away_roll_pyth_exp                0.018972
+away_roll_pyth_luck               0.018972
+away_roll_pts_off_to              0.018972
+
+============================================================
+missing_values_by_year.png
+============================================================
+Missing values by season (rows = seasons, columns = features)
+
+============================================================
+correlation_check.png
+============================================================
+Top 15 most correlated:
+home_won              0.762735
+diff_srs              0.633022
+spread               -0.631055
+diff_elo              0.513753
+diff_pyth_exp         0.385078
+away_srs             -0.362900
+away_adj_rank         0.344426
+home_srs              0.326187
+home_adj_rank        -0.315706
+diff_adj_net          0.304276
+away_elo_pre         -0.285807
+home_seed            -0.274370
+diff_efg              0.260086
+away_seed             0.254566
+away_roll_pyth_exp   -0.249861
+
+Bottom 5 (weakest signal):
+away_roll_fg_att           -0.007570
+home_roll_shot_sel_rate     0.004250
+home_roll_pts_fastbrk      -0.003720
+home_roll_forced_to_rate   -0.003078
+away_roll_to_disruption    -0.000241
+
+============================================================
+target_distribution.png
+============================================================
+Home win rate: 66.1%
+Mean point diff: +5.94
+Std point diff: 14.40
+Tournament home win rate: 66.5% (neutral site games included)
+Regular season home win rate: 66.0%
+
+============================================================
+season_coverage.png
+============================================================
+ season  games  home_wr  avg_diff  tourn_games
+   2014    520 0.655769  5.675000          144
+   2015    527 0.658444  5.309298          145
+   2016    534 0.661049  6.380150          147
+   2017    519 0.684008  6.410405          125
+   2018    486 0.648148  5.251029          130
+   2019    520 0.692308  6.553846          140
+   2020    366 0.625683  4.314208            0
+   2021    364 0.659341  7.788462           87
+   2022    483 0.631470  5.227743          130
+   2023    460 0.697826  6.543478          112
+   2024    491 0.645621  5.912424          120
+
+============================================================
+missing_values.png
+============================================================
+Columns with missing data:
+home_seed                        87.457306
+away_seed                        87.457306
+tournament                       78.235294
+over_under                       42.106262
+spread                           38.956357
+excitement                        6.053131
+state                             2.865275
+diff_adj_net                      1.555977
+away_adj_rank                     1.214421
+away_adj_def                      1.214421
+away_adj_off                      1.214421
+away_adj_net                      1.214421
+diff_turnover_disruption          0.910816
+diff_tempo_control                0.910816
+away_roll_tempo_control           0.512334
+away_roll_to_disruption           0.512334
+home_roll_tempo_control           0.436433
+home_roll_to_disruption           0.436433
+diff_srs                          0.398482
+away_srs                          0.379507
+home_adj_rank                     0.360531
+home_adj_off                      0.360531
+home_adj_def                      0.360531
+home_adj_net                      0.360531
+diff_unforced_to_rate             0.132827
+pace_mismatch                     0.132827
+diff_to_ratio                     0.132827
+diff_off_rating                   0.132827
+diff_shot_sel_disruption          0.113852
+diff_orb_disruption               0.113852
+home_roll_to_rate_per_poss        0.094877
+home_roll_avg_poss                0.094877
+home_roll_off_rating              0.094877
+home_roll_unforced_to_rate        0.094877
+home_roll_to_ratio                0.094877
+home_roll_pace                    0.094877
+home_roll_orb_disruption          0.056926
+home_roll_shot_sel_disruption     0.056926
+away_roll_shot_sel_disruption     0.056926
+away_roll_orb_disruption          0.056926
+away_roll_avg_poss                0.037951
+away_roll_unforced_to_rate        0.037951
+away_roll_off_rating              0.037951
+away_roll_to_ratio                0.037951
+away_roll_to_rate_per_poss        0.037951
+away_roll_pace                    0.037951
+away_roll_assists                 0.018975
+diff_pyth_luck                    0.018975
+diff_pyth_exp                     0.018975
+away_roll_off_reb                 0.018975
+away_roll_def_reb                 0.018975
+away_roll_ft_att                  0.018975
+diff_ft_rate                      0.018975
+home_srs                          0.018975
+diff_efg                          0.018975
+diff_forced_to_rate               0.018975
+away_roll_pts_paint               0.018975
+away_roll_pts_fastbrk             0.018975
+away_roll_pts_off_to              0.018975
+away_roll_steals                  0.018975
+away_roll_tp_att                  0.018975
+away_roll_tp_made                 0.018975
+away_roll_ft_made                 0.018975
+away_roll_fg_pct                  0.018975
+away_roll_efg_pct                 0.018975
+away_roll_orb_pct                 0.018975
+away_roll_ft_rate                 0.018975
+away_roll_fg_att                  0.018975
+away_roll_fg_made                 0.018975
+away_roll_tp_pct                  0.018975
+away_roll_blocks                  0.018975
+away_roll_adj_orb_rate            0.018975
+away_roll_game_score              0.018975
+away_roll_pyth_exp                0.018975
+away_roll_adj_drb_rate            0.018975
+away_roll_true_shooting           0.018975
+away_roll_forced_to_rate          0.018975
+away_roll_total_reb               0.018975
+away_roll_turnovers               0.018975
+diff_adj_drb_rate                 0.018975
+diff_orb_pct                      0.018975
+diff_adj_orb_rate                 0.018975
+away_roll_shot_sel_rate           0.018975
+away_roll_pyth_luck               0.018975
+
+============================================================
+missing_values_by_year.png
+============================================================
+Missing values by season (rows = seasons, columns = features)
+
+============================================================
+correlation_check.png
+============================================================
+Top 15 most correlated:
+home_won              0.762657
+diff_srs              0.633137
+spread               -0.629735
+diff_elo              0.513867
+diff_pyth_exp         0.401795
+away_srs             -0.362656
+away_adj_rank         0.343821
+home_srs              0.326275
+home_adj_rank        -0.316259
+away_elo_pre         -0.285567
+diff_adj_net          0.282881
+home_seed            -0.274370
+diff_efg              0.268328
+away_roll_pyth_exp   -0.264108
+away_seed             0.254566
+
+Bottom 5 (weakest signal):
+away_roll_shot_sel_disruption   -0.007830
+diff_turnover_disruption         0.006467
+home_roll_pts_fastbrk           -0.004578
+home_roll_shot_sel_rate         -0.002612
+away_roll_to_disruption         -0.002407
+
+============================================================
+target_distribution.png
+============================================================
+Home win rate: 66.2%
+Mean point diff: +5.96
+Std point diff: 14.39
+Tournament home win rate: 66.5% (neutral site games included)
+Regular season home win rate: 66.1%
+
+============================================================
+season_coverage.png
+============================================================
+ season  games  home_wr  avg_diff  tourn_games
+   2014    520 0.657692  5.703846          144
+   2015    527 0.658444  5.309298          145
+   2016    534 0.661049  6.380150          147
+   2017    518 0.685328  6.426641          125
+   2018    486 0.648148  5.251029          130
+   2019    520 0.692308  6.553846          140
+   2020    367 0.634877  4.539510            0
+   2021    365 0.660274  7.882192           87
+   2022    482 0.630705  5.209544          130
+   2023    459 0.694989  6.522876          112
+   2024    491 0.645621  5.912424          120
+
+============================================================
+missing_values.png
+============================================================
+Columns with missing data:
+home_seed                        87.454925
+away_seed                        87.454925
+tournament                       78.231163
+over_under                       42.114253
+spread                           38.963750
+excitement                        6.092238
+state                             2.865819
+diff_adj_net                      1.556273
+adj_net_if_available              1.556273
+away_adj_rank                     1.233631
+away_adj_off                      1.233631
+away_adj_def                      1.233631
+away_adj_net                      1.233631
+diff_tempo_control                0.910989
+diff_turnover_disruption          0.910989
+away_roll_to_disruption           0.512431
+away_roll_tempo_control           0.512431
+home_roll_tempo_control           0.436515
+home_roll_to_disruption           0.436515
+diff_srs                          0.417537
+away_srs                          0.398558
+home_adj_def                      0.341621
+home_adj_rank                     0.341621
+home_adj_net                      0.341621
+home_adj_off                      0.341621
+diff_roll_off_eff                 0.132853
+diff_unforced_to_rate             0.132853
+diff_roll_def_eff                 0.132853
+diff_to_ratio                     0.132853
+diff_roll_net_eff                 0.132853
+diff_off_rating                   0.132853
+pace_mismatch                     0.132853
+diff_shot_sel_disruption          0.113874
+diff_orb_disruption               0.113874
+home_roll_avg_poss                0.094895
+home_roll_unforced_to_rate        0.094895
+home_roll_off_rating              0.094895
+home_roll_off_eff_game            0.094895
+home_roll_net_eff                 0.094895
+home_roll_def_eff_game            0.094895
+home_roll_pace                    0.094895
+home_roll_to_ratio                0.094895
+home_roll_to_rate_per_poss        0.094895
+home_roll_shot_sel_disruption     0.056937
+away_roll_shot_sel_disruption     0.056937
+away_roll_orb_disruption          0.056937
+home_roll_orb_disruption          0.056937
+away_roll_pace                    0.037958
+away_roll_off_eff_game            0.037958
+away_roll_unforced_to_rate        0.037958
+away_roll_net_eff                 0.037958
+away_roll_to_rate_per_poss        0.037958
+away_roll_off_rating              0.037958
+away_roll_def_eff_game            0.037958
+away_roll_avg_poss                0.037958
+away_roll_to_ratio                0.037958
+diff_efg                          0.018979
+away_roll_true_shooting           0.018979
+diff_adj_orb_rate                 0.018979
+away_roll_forced_to_rate          0.018979
+away_roll_pts_off_to              0.018979
+away_roll_ft_made                 0.018979
+away_roll_tp_att                  0.018979
+away_roll_blocks                  0.018979
+away_roll_steals                  0.018979
+away_roll_assists                 0.018979
+away_roll_adj_drb_rate            0.018979
+away_roll_pyth_exp                0.018979
+away_roll_adj_orb_rate            0.018979
+away_roll_game_score              0.018979
+away_roll_pyth_luck               0.018979
+away_roll_pts_fastbrk             0.018979
+away_roll_shot_sel_rate           0.018979
+away_roll_pts_paint               0.018979
+diff_forced_to_rate               0.018979
+diff_adj_drb_rate                 0.018979
+diff_pyth_exp                     0.018979
+away_roll_ft_rate                 0.018979
+away_roll_fg_made                 0.018979
+away_roll_orb_pct                 0.018979
+away_roll_def_reb                 0.018979
+away_roll_turnovers               0.018979
+away_roll_tp_made                 0.018979
+away_roll_tp_pct                  0.018979
+away_roll_fg_att                  0.018979
+away_roll_total_reb               0.018979
+away_roll_off_reb                 0.018979
+away_roll_ft_att                  0.018979
+away_roll_efg_pct                 0.018979
+away_roll_fg_pct                  0.018979
+diff_pyth_luck                    0.018979
+diff_ft_rate                      0.018979
+home_srs                          0.018979
+diff_orb_pct                      0.018979
+
+============================================================
+missing_values_by_year.png
+============================================================
+Missing values by season (rows = seasons, columns = features)
+
+============================================================
+correlation_check.png
+============================================================
+Top 15 most correlated:
+home_won              0.762166
+diff_srs              0.633033
+spread               -0.630875
+diff_elo              0.514551
+diff_pyth_exp         0.390171
+away_srs             -0.364307
+away_adj_rank         0.346267
+home_srs              0.324735
+home_adj_rank        -0.314500
+diff_adj_net          0.304213
+diff_roll_net_eff     0.303995
+away_elo_pre         -0.287998
+home_seed            -0.274370
+diff_efg              0.263675
+away_roll_pyth_exp   -0.256559
+
+Bottom 5 (weakest signal):
+home_roll_forced_to_rate        -0.004217
+away_roll_to_disruption         -0.002119
+home_roll_shot_sel_rate         -0.001085
+home_roll_pts_fastbrk           -0.000580
+away_roll_shot_sel_disruption    0.000530
+
+============================================================
+target_distribution.png
+============================================================
+Home win rate: 66.1%
+Mean point diff: +5.95
+Std point diff: 14.40
+Tournament home win rate: 66.5% (neutral site games included)
+Regular season home win rate: 66.0%
+
+============================================================
+season_coverage.png
+============================================================
+ season  games  home_wr  avg_diff  tourn_games
+   2014    520 0.655769  5.665385          144
+   2015    527 0.658444  5.309298          145
+   2016    534 0.661049  6.380150          147
+   2017    518 0.685328  6.426641          125
+   2018    486 0.648148  5.251029          130
+   2019    520 0.692308  6.553846          140
+   2020    367 0.629428  4.465940            0
+   2021    363 0.661157  7.818182           87
+   2022    486 0.633745  5.279835          130
+   2023    460 0.695652  6.532609          112
+   2024    491 0.645621  5.912424          120
+
+============================================================
+missing_values.png
+============================================================
+Columns with missing data:
+home_seed                        87.462064
+away_seed                        87.462064
+tournament                       78.243551
+over_under                       42.071320
+spread                           38.922610
+excitement                        6.031866
+state                             2.864188
+adj_net_if_available              1.536419
+diff_adj_net                      1.536419
+away_adj_net                      1.213961
+away_adj_def                      1.213961
+away_adj_off                      1.213961
+away_adj_rank                     1.213961
+diff_turnover_disruption          0.910470
+diff_tempo_control                0.910470
+diff_best_net_eff                 0.588012
+away_roll_tempo_control           0.512140
+away_roll_to_disruption           0.512140
+diff_adj_def_eff                  0.493171
+diff_adj_off_eff                  0.493171
+diff_adj_net_eff                  0.493171
+home_roll_to_disruption           0.436267
+home_roll_tempo_control           0.436267
+diff_srs                          0.398331
+away_srs                          0.379363
+home_adj_off                      0.341426
+home_adj_net                      0.341426
+home_adj_rank                     0.341426
+home_adj_def                      0.341426
+home_roll_adj_off_eff_game        0.303490
+home_roll_adj_def_eff_game        0.303490
+home_roll_adj_net_eff_game        0.303490
+away_roll_adj_net_eff_game        0.208649
+away_roll_adj_off_eff_game        0.208649
+away_roll_adj_def_eff_game        0.208649
+diff_unforced_to_rate             0.132777
+diff_off_rating                   0.132777
+diff_roll_net_eff                 0.132777
+diff_roll_def_eff                 0.132777
+pace_mismatch                     0.132777
+diff_roll_off_eff                 0.132777
+diff_to_ratio                     0.132777
+diff_shot_sel_disruption          0.113809
+diff_orb_disruption               0.113809
+home_roll_avg_poss                0.094841
+home_roll_off_rating              0.094841
+home_roll_unforced_to_rate        0.094841
+home_roll_off_eff_game            0.094841
+home_roll_to_rate_per_poss        0.094841
+home_roll_net_eff                 0.094841
+home_roll_pace                    0.094841
+home_roll_def_eff_game            0.094841
+home_roll_to_ratio                0.094841
+away_roll_shot_sel_disruption     0.056904
+home_roll_orb_disruption          0.056904
+home_roll_shot_sel_disruption     0.056904
+away_roll_orb_disruption          0.056904
+away_roll_def_eff_game            0.037936
+away_roll_net_eff                 0.037936
+away_roll_unforced_to_rate        0.037936
+away_roll_off_rating              0.037936
+away_roll_pace                    0.037936
+away_roll_to_ratio                0.037936
+away_roll_to_rate_per_poss        0.037936
+away_roll_avg_poss                0.037936
+away_roll_off_eff_game            0.037936
+away_roll_pts_off_to              0.018968
+diff_efg                          0.018968
+away_roll_blocks                  0.018968
+away_roll_tp_att                  0.018968
+away_roll_ft_made                 0.018968
+away_roll_ft_att                  0.018968
+away_roll_def_reb                 0.018968
+away_roll_off_reb                 0.018968
+away_roll_total_reb               0.018968
+away_roll_turnovers               0.018968
+away_roll_fg_pct                  0.018968
+away_roll_efg_pct                 0.018968
+away_roll_orb_pct                 0.018968
+away_roll_ft_rate                 0.018968
+away_roll_shot_sel_rate           0.018968
+away_roll_game_score              0.018968
+away_roll_true_shooting           0.018968
+away_roll_forced_to_rate          0.018968
+home_srs                          0.018968
+away_roll_pyth_luck               0.018968
+away_roll_pyth_exp                0.018968
+away_roll_adj_drb_rate            0.018968
+away_roll_adj_orb_rate            0.018968
+diff_pyth_exp                     0.018968
+diff_adj_orb_rate                 0.018968
+diff_pyth_luck                    0.018968
+diff_forced_to_rate               0.018968
+diff_adj_drb_rate                 0.018968
+diff_ft_rate                      0.018968
+away_roll_fg_att                  0.018968
+away_roll_tp_made                 0.018968
+away_roll_tp_pct                  0.018968
+away_roll_fg_made                 0.018968
+away_roll_steals                  0.018968
+diff_orb_pct                      0.018968
+away_roll_pts_fastbrk             0.018968
+away_roll_pts_paint               0.018968
+away_roll_assists                 0.018968
+
+============================================================
+missing_values_by_year.png
+============================================================
+Missing values by season (rows = seasons, columns = features)
+
+============================================================
+correlation_check.png
+============================================================
+Top 15 most correlated:
+home_won              0.762580
+diff_srs              0.633376
+spread               -0.631540
+diff_elo              0.515156
+diff_pyth_exp         0.393719
+away_srs             -0.363920
+away_adj_rank         0.344983
+home_srs              0.326239
+home_adj_rank        -0.316623
+away_elo_pre         -0.286938
+diff_adj_net          0.283626
+home_seed            -0.274370
+diff_efg              0.270909
+away_roll_pyth_exp   -0.258617
+away_seed             0.254566
+
+Bottom 5 (weakest signal):
+away_roll_forced_to_rate         0.006926
+away_roll_shot_sel_disruption   -0.004255
+home_roll_pts_fastbrk           -0.002098
+away_roll_to_disruption          0.001742
+home_roll_shot_sel_rate          0.000413
+
+============================================================
+target_distribution.png
+============================================================
+Home win rate: 66.1%
+Mean point diff: +5.96
+Std point diff: 14.38
+Tournament home win rate: 66.5% (neutral site games included)
+Regular season home win rate: 66.0%
+
+============================================================
+season_coverage.png
+============================================================
+ season  games  home_wr  avg_diff  tourn_games
+   2014    521 0.656430  5.681382          144
+   2015    527 0.658444  5.309298          145
+   2016    534 0.661049  6.380150          147
+   2017    519 0.684008  6.410405          125
+   2018    486 0.648148  5.251029          130
+   2019    520 0.692308  6.553846          140
+   2020    366 0.633880  4.562842            0
+   2021    364 0.659341  7.788462           87
+   2022    483 0.631470  5.223602          130
+   2023    458 0.696507  6.545852          112
+   2024    491 0.645621  5.912424          120
+
+============================================================
+missing_values.png
+============================================================
+Columns with missing data:
+away_seed                        87.454925
+home_seed                        87.454925
+tournament                       78.231163
+over_under                       42.114253
+spread                           38.963750
+excitement                        6.054280
+state                             2.865819
+adj_net_if_available              1.556273
+diff_adj_net                      1.556273
+away_adj_off                      1.214652
+away_adj_net                      1.214652
+away_adj_def                      1.214652
+away_adj_rank                     1.214652
+diff_tempo_control                0.910989
+diff_turnover_disruption          0.910989
+diff_best_net_eff                 0.588347
+away_roll_tempo_control           0.512431
+away_roll_to_disruption           0.512431
+diff_adj_net_eff                  0.493452
+diff_adj_def_eff                  0.493452
+diff_adj_off_eff                  0.474473
+home_roll_tempo_control           0.436515
+home_roll_to_disruption           0.436515
+diff_srs                          0.398558
+away_srs                          0.379579
+home_adj_off                      0.360600
+home_adj_rank                     0.360600
+home_adj_net                      0.360600
+home_adj_def                      0.360600
+home_roll_adj_net_eff_game        0.303663
+home_roll_adj_off_eff_game        0.303663
+home_roll_adj_def_eff_game        0.303663
+away_roll_adj_net_eff_game        0.208768
+away_roll_adj_def_eff_game        0.208768
+away_roll_adj_off_eff_game        0.189789
+diff_roll_def_eff                 0.132853
+pace_mismatch                     0.132853
+diff_unforced_to_rate             0.132853
+diff_roll_off_eff                 0.132853
+diff_roll_net_eff                 0.132853
+diff_off_rating                   0.132853
+diff_to_ratio                     0.132853
+diff_mom_to_ratio                 0.132853
+diff_shot_sel_disruption          0.113874
+diff_orb_disruption               0.113874
+home_roll_off_rating              0.094895
+home_roll_def_eff_game            0.094895
+home_roll_avg_poss                0.094895
+home_mom_to_rate_per_poss         0.094895
+home_roll_unforced_to_rate        0.094895
+home_roll_to_ratio                0.094895
+home_roll_pace                    0.094895
+home_roll_to_rate_per_poss        0.094895
+home_roll_off_eff_game            0.094895
+home_mom_off_rating               0.094895
+home_mom_def_eff_game             0.094895
+home_mom_off_eff_game             0.094895
+home_mom_unforced_to_rate         0.094895
+home_mom_to_ratio                 0.094895
+home_mom_pace                     0.094895
+home_roll_net_eff                 0.094895
+home_roll_orb_disruption          0.056937
+away_roll_shot_sel_disruption     0.056937
+away_roll_orb_disruption          0.056937
+home_roll_shot_sel_disruption     0.056937
+away_roll_unforced_to_rate        0.037958
+away_roll_pace                    0.037958
+away_roll_to_ratio                0.037958
+away_roll_def_eff_game            0.037958
+away_roll_off_eff_game            0.037958
+away_roll_off_rating              0.037958
+away_mom_to_rate_per_poss         0.037958
+away_roll_net_eff                 0.037958
+away_mom_off_rating               0.037958
+away_mom_pace                     0.037958
+away_mom_to_ratio                 0.037958
+away_roll_to_rate_per_poss        0.037958
+away_roll_avg_poss                0.037958
+away_mom_def_eff_game             0.037958
+away_mom_off_eff_game             0.037958
+away_mom_unforced_to_rate         0.037958
+away_roll_steals                  0.018979
+away_roll_blocks                  0.018979
+away_roll_assists                 0.018979
+away_roll_ft_rate                 0.018979
+away_roll_fg_pct                  0.018979
+away_roll_tp_pct                  0.018979
+away_roll_fg_att                  0.018979
+away_roll_orb_pct                 0.018979
+away_roll_pts_off_to              0.018979
+away_roll_game_score              0.018979
+away_roll_true_shooting           0.018979
+away_roll_pts_paint               0.018979
+away_roll_efg_pct                 0.018979
+away_mom_ft_rate                  0.018979
+away_mom_orb_pct                  0.018979
+away_mom_fg_made                  0.018979
+away_mom_fg_att                   0.018979
+away_mom_tp_pct                   0.018979
+away_mom_fg_pct                   0.018979
+away_mom_blocks                   0.018979
+away_mom_pts_paint                0.018979
+away_mom_ft_att                   0.018979
+away_mom_ft_made                  0.018979
+away_mom_total_reb                0.018979
+away_mom_def_reb                  0.018979
+away_mom_turnovers                0.018979
+away_mom_off_reb                  0.018979
+away_mom_steals                   0.018979
+away_mom_assists                  0.018979
+away_mom_pts_off_to               0.018979
+away_mom_pts_fastbrk              0.018979
+away_roll_turnovers               0.018979
+away_roll_total_reb               0.018979
+away_roll_tp_made                 0.018979
+away_roll_tp_att                  0.018979
+diff_pyth_exp                     0.018979
+diff_adj_drb_rate                 0.018979
+diff_adj_orb_rate                 0.018979
+home_srs                          0.018979
+away_roll_def_reb                 0.018979
+away_roll_off_reb                 0.018979
+away_roll_ft_att                  0.018979
+away_roll_ft_made                 0.018979
+away_roll_fg_made                 0.018979
+away_mom_pyth_luck                0.018979
+away_mom_pyth_exp                 0.018979
+away_mom_adj_drb_rate             0.018979
+away_mom_shot_sel_rate            0.018979
+away_mom_adj_orb_rate             0.018979
+away_mom_true_shooting            0.018979
+away_mom_forced_to_rate           0.018979
+diff_ft_rate                      0.018979
+diff_efg                          0.018979
+diff_mom_orb_pct                  0.018979
+diff_mom_ft_rate                  0.018979
+away_mom_game_score               0.018979
+diff_forced_to_rate               0.018979
+away_mom_efg_pct                  0.018979
+away_roll_pts_fastbrk             0.018979
+away_roll_pyth_exp                0.018979
+away_roll_pyth_luck               0.018979
+away_roll_adj_drb_rate            0.018979
+away_roll_adj_orb_rate            0.018979
+away_roll_shot_sel_rate           0.018979
+away_roll_forced_to_rate          0.018979
+away_mom_tp_att                   0.018979
+away_mom_tp_made                  0.018979
+diff_orb_pct                      0.018979
+diff_mom_efg                      0.018979
+diff_pyth_luck                    0.018979
+
+============================================================
+missing_values_by_year.png
+============================================================
+Missing values by season (rows = seasons, columns = features)
+
+============================================================
+correlation_check.png
+============================================================
+Top 15 most correlated:
+home_won              0.762337
+diff_srs              0.632928
+spread               -0.630713
+diff_elo              0.513816
+diff_pyth_exp         0.385761
+away_srs             -0.363214
+away_adj_rank         0.344948
+home_srs              0.325291
+home_adj_rank        -0.315587
+diff_adj_net          0.304213
+away_elo_pre         -0.286155
+home_seed            -0.274370
+diff_efg              0.265407
+away_seed             0.254566
+away_roll_pyth_exp   -0.250565
+
+Bottom 5 (weakest signal):
+away_roll_shot_sel_disruption    0.002184
+home_roll_shot_sel_rate         -0.001430
+home_mom_forced_to_rate         -0.000875
+away_roll_to_disruption         -0.000596
+diff_mom_orb_pct                -0.000532
+
+============================================================
+target_distribution.png
+============================================================
+Home win rate: 66.1%
+Mean point diff: +5.96
+Std point diff: 14.38
+Tournament home win rate: 66.5% (neutral site games included)
+Regular season home win rate: 66.0%
+
+============================================================
+season_coverage.png
+============================================================
+ season  games  home_wr  avg_diff  tourn_games
+   2014    521 0.656430  5.681382          144
+   2015    527 0.658444  5.309298          145
+   2016    534 0.661049  6.380150          147
+   2017    519 0.684008  6.410405          125
+   2018    486 0.648148  5.251029          130
+   2019    520 0.692308  6.553846          140
+   2020    366 0.633880  4.562842            0
+   2021    364 0.659341  7.788462           87
+   2022    483 0.631470  5.223602          130
+   2023    458 0.696507  6.545852          112
+   2024    491 0.645621  5.912424          120
+
+============================================================
+missing_values.png
+============================================================
+Columns with missing data:
+away_seed                        87.454925
+home_seed                        87.454925
+tournament                       78.231163
+over_under                       42.114253
+spread                           38.963750
+excitement                        6.054280
+state                             2.865819
+adj_net_if_available              1.556273
+diff_adj_net                      1.556273
+away_adj_off                      1.214652
+away_adj_net                      1.214652
+away_adj_def                      1.214652
+away_adj_rank                     1.214652
+diff_tempo_control                0.910989
+diff_turnover_disruption          0.910989
+diff_best_net_eff                 0.588347
+away_roll_tempo_control           0.512431
+away_roll_to_disruption           0.512431
+diff_adj_net_eff                  0.493452
+diff_adj_def_eff                  0.493452
+diff_adj_off_eff                  0.474473
+home_roll_tempo_control           0.436515
+home_roll_to_disruption           0.436515
+diff_srs                          0.398558
+away_srs                          0.379579
+home_adj_off                      0.360600
+home_adj_rank                     0.360600
+home_adj_net                      0.360600
+home_adj_def                      0.360600
+home_roll_adj_net_eff_game        0.303663
+home_roll_adj_off_eff_game        0.303663
+home_roll_adj_def_eff_game        0.303663
+away_roll_adj_net_eff_game        0.208768
+away_roll_adj_def_eff_game        0.208768
+away_roll_adj_off_eff_game        0.189789
+diff_roll_def_eff                 0.132853
+pace_mismatch                     0.132853
+diff_unforced_to_rate             0.132853
+diff_roll_off_eff                 0.132853
+diff_roll_net_eff                 0.132853
+diff_off_rating                   0.132853
+diff_to_ratio                     0.132853
+diff_mom_to_ratio                 0.132853
+diff_shot_sel_disruption          0.113874
+diff_orb_disruption               0.113874
+home_roll_off_rating              0.094895
+home_roll_def_eff_game            0.094895
+home_roll_avg_poss                0.094895
+home_mom_to_rate_per_poss         0.094895
+home_roll_unforced_to_rate        0.094895
+home_roll_to_ratio                0.094895
+home_roll_pace                    0.094895
+home_roll_to_rate_per_poss        0.094895
+home_roll_off_eff_game            0.094895
+home_mom_off_rating               0.094895
+home_mom_def_eff_game             0.094895
+home_mom_off_eff_game             0.094895
+home_mom_unforced_to_rate         0.094895
+home_mom_to_ratio                 0.094895
+home_mom_pace                     0.094895
+home_roll_net_eff                 0.094895
+home_roll_orb_disruption          0.056937
+away_roll_shot_sel_disruption     0.056937
+away_roll_orb_disruption          0.056937
+home_roll_shot_sel_disruption     0.056937
+away_roll_unforced_to_rate        0.037958
+away_roll_pace                    0.037958
+away_roll_to_ratio                0.037958
+away_roll_def_eff_game            0.037958
+away_roll_off_eff_game            0.037958
+away_roll_off_rating              0.037958
+away_mom_to_rate_per_poss         0.037958
+away_roll_net_eff                 0.037958
+away_mom_off_rating               0.037958
+away_mom_pace                     0.037958
+away_mom_to_ratio                 0.037958
+away_roll_to_rate_per_poss        0.037958
+away_roll_avg_poss                0.037958
+away_mom_def_eff_game             0.037958
+away_mom_off_eff_game             0.037958
+away_mom_unforced_to_rate         0.037958
+away_roll_steals                  0.018979
+away_roll_blocks                  0.018979
+away_roll_assists                 0.018979
+away_roll_ft_rate                 0.018979
+away_roll_fg_pct                  0.018979
+away_roll_tp_pct                  0.018979
+away_roll_fg_att                  0.018979
+away_roll_orb_pct                 0.018979
+away_roll_pts_off_to              0.018979
+away_roll_game_score              0.018979
+away_roll_true_shooting           0.018979
+away_roll_pts_paint               0.018979
+away_roll_efg_pct                 0.018979
+away_mom_ft_rate                  0.018979
+away_mom_orb_pct                  0.018979
+away_mom_fg_made                  0.018979
+away_mom_fg_att                   0.018979
+away_mom_tp_pct                   0.018979
+away_mom_fg_pct                   0.018979
+away_mom_blocks                   0.018979
+away_mom_pts_paint                0.018979
+away_mom_ft_att                   0.018979
+away_mom_ft_made                  0.018979
+away_mom_total_reb                0.018979
+away_mom_def_reb                  0.018979
+away_mom_turnovers                0.018979
+away_mom_off_reb                  0.018979
+away_mom_steals                   0.018979
+away_mom_assists                  0.018979
+away_mom_pts_off_to               0.018979
+away_mom_pts_fastbrk              0.018979
+away_roll_turnovers               0.018979
+away_roll_total_reb               0.018979
+away_roll_tp_made                 0.018979
+away_roll_tp_att                  0.018979
+diff_pyth_exp                     0.018979
+diff_adj_drb_rate                 0.018979
+diff_adj_orb_rate                 0.018979
+home_srs                          0.018979
+away_roll_def_reb                 0.018979
+away_roll_off_reb                 0.018979
+away_roll_ft_att                  0.018979
+away_roll_ft_made                 0.018979
+away_roll_fg_made                 0.018979
+away_mom_pyth_luck                0.018979
+away_mom_pyth_exp                 0.018979
+away_mom_adj_drb_rate             0.018979
+away_mom_shot_sel_rate            0.018979
+away_mom_adj_orb_rate             0.018979
+away_mom_true_shooting            0.018979
+away_mom_forced_to_rate           0.018979
+diff_ft_rate                      0.018979
+diff_efg                          0.018979
+diff_mom_orb_pct                  0.018979
+diff_mom_ft_rate                  0.018979
+away_mom_game_score               0.018979
+diff_forced_to_rate               0.018979
+away_mom_efg_pct                  0.018979
+away_roll_pts_fastbrk             0.018979
+away_roll_pyth_exp                0.018979
+away_roll_pyth_luck               0.018979
+away_roll_adj_drb_rate            0.018979
+away_roll_adj_orb_rate            0.018979
+away_roll_shot_sel_rate           0.018979
+away_roll_forced_to_rate          0.018979
+away_mom_tp_att                   0.018979
+away_mom_tp_made                  0.018979
+diff_orb_pct                      0.018979
+diff_mom_efg                      0.018979
+diff_pyth_luck                    0.018979
+
+============================================================
+missing_values_by_year.png
+============================================================
+Missing values by season (rows = seasons, columns = features)
+
+============================================================
+correlation_check.png
+============================================================
+Top 15 most correlated:
+home_won              0.762337
+diff_srs              0.632928
+spread               -0.630713
+diff_elo              0.513816
+diff_pyth_exp         0.385761
+away_srs             -0.363214
+away_adj_rank         0.344948
+home_srs              0.325291
+home_adj_rank        -0.315587
+diff_adj_net          0.304213
+away_elo_pre         -0.286155
+home_seed            -0.274370
+diff_efg              0.265407
+away_seed             0.254566
+away_roll_pyth_exp   -0.250565
+
+Bottom 5 (weakest signal):
+away_roll_shot_sel_disruption    0.002184
+home_roll_shot_sel_rate         -0.001430
+home_mom_forced_to_rate         -0.000875
+away_roll_to_disruption         -0.000596
+diff_mom_orb_pct                -0.000532
+
+============================================================
+target_distribution.png
+============================================================
+Home win rate: 66.1%
+Mean point diff: +5.96
+Std point diff: 14.38
+Tournament home win rate: 66.5% (neutral site games included)
+Regular season home win rate: 66.0%
+
+============================================================
+season_coverage.png
+============================================================
+ season  games  home_wr  avg_diff  tourn_games
+   2014    521 0.656430  5.681382          144
+   2015    527 0.658444  5.309298          145
+   2016    534 0.661049  6.380150          147
+   2017    519 0.684008  6.410405          125
+   2018    486 0.648148  5.251029          130
+   2019    520 0.692308  6.553846          140
+   2020    366 0.633880  4.562842            0
+   2021    364 0.659341  7.788462           87
+   2022    483 0.631470  5.223602          130
+   2023    458 0.696507  6.545852          112
+   2024    491 0.645621  5.912424          120
+
+============================================================
+missing_values.png
+============================================================
+Columns with missing data:
+away_seed                        87.454925
+home_seed                        87.454925
+tournament                       78.231163
+over_under                       42.114253
+spread                           38.963750
+excitement                        6.054280
+state                             2.865819
+adj_net_if_available              1.556273
+diff_adj_net                      1.556273
+away_adj_off                      1.214652
+away_adj_net                      1.214652
+away_adj_def                      1.214652
+away_adj_rank                     1.214652
+diff_tempo_control                0.910989
+diff_turnover_disruption          0.910989
+diff_best_net_eff                 0.588347
+away_roll_tempo_control           0.512431
+away_roll_to_disruption           0.512431
+diff_adj_net_eff                  0.493452
+diff_adj_def_eff                  0.493452
+diff_adj_off_eff                  0.474473
+home_roll_tempo_control           0.436515
+home_roll_to_disruption           0.436515
+diff_srs                          0.398558
+away_srs                          0.379579
+home_adj_off                      0.360600
+home_adj_rank                     0.360600
+home_adj_net                      0.360600
+home_adj_def                      0.360600
+home_roll_adj_net_eff_game        0.303663
+home_roll_adj_off_eff_game        0.303663
+home_roll_adj_def_eff_game        0.303663
+away_roll_adj_net_eff_game        0.208768
+away_roll_adj_def_eff_game        0.208768
+away_roll_adj_off_eff_game        0.189789
+diff_roll_def_eff                 0.132853
+pace_mismatch                     0.132853
+diff_unforced_to_rate             0.132853
+diff_roll_off_eff                 0.132853
+diff_roll_net_eff                 0.132853
+diff_off_rating                   0.132853
+diff_to_ratio                     0.132853
+diff_mom_to_ratio                 0.132853
+diff_shot_sel_disruption          0.113874
+diff_orb_disruption               0.113874
+home_roll_off_rating              0.094895
+home_roll_def_eff_game            0.094895
+home_roll_avg_poss                0.094895
+home_mom_to_rate_per_poss         0.094895
+home_roll_unforced_to_rate        0.094895
+home_roll_to_ratio                0.094895
+home_roll_pace                    0.094895
+home_roll_to_rate_per_poss        0.094895
+home_roll_off_eff_game            0.094895
+home_mom_off_rating               0.094895
+home_mom_def_eff_game             0.094895
+home_mom_off_eff_game             0.094895
+home_mom_unforced_to_rate         0.094895
+home_mom_to_ratio                 0.094895
+home_mom_pace                     0.094895
+home_roll_net_eff                 0.094895
+home_roll_orb_disruption          0.056937
+away_roll_shot_sel_disruption     0.056937
+away_roll_orb_disruption          0.056937
+home_roll_shot_sel_disruption     0.056937
+away_roll_unforced_to_rate        0.037958
+away_roll_pace                    0.037958
+away_roll_to_ratio                0.037958
+away_roll_def_eff_game            0.037958
+away_roll_off_eff_game            0.037958
+away_roll_off_rating              0.037958
+away_mom_to_rate_per_poss         0.037958
+away_roll_net_eff                 0.037958
+away_mom_off_rating               0.037958
+away_mom_pace                     0.037958
+away_mom_to_ratio                 0.037958
+away_roll_to_rate_per_poss        0.037958
+away_roll_avg_poss                0.037958
+away_mom_def_eff_game             0.037958
+away_mom_off_eff_game             0.037958
+away_mom_unforced_to_rate         0.037958
+away_roll_steals                  0.018979
+away_roll_blocks                  0.018979
+away_roll_assists                 0.018979
+away_roll_ft_rate                 0.018979
+away_roll_fg_pct                  0.018979
+away_roll_tp_pct                  0.018979
+away_roll_fg_att                  0.018979
+away_roll_orb_pct                 0.018979
+away_roll_pts_off_to              0.018979
+away_roll_game_score              0.018979
+away_roll_true_shooting           0.018979
+away_roll_pts_paint               0.018979
+away_roll_efg_pct                 0.018979
+away_mom_ft_rate                  0.018979
+away_mom_orb_pct                  0.018979
+away_mom_fg_made                  0.018979
+away_mom_fg_att                   0.018979
+away_mom_tp_pct                   0.018979
+away_mom_fg_pct                   0.018979
+away_mom_blocks                   0.018979
+away_mom_pts_paint                0.018979
+away_mom_ft_att                   0.018979
+away_mom_ft_made                  0.018979
+away_mom_total_reb                0.018979
+away_mom_def_reb                  0.018979
+away_mom_turnovers                0.018979
+away_mom_off_reb                  0.018979
+away_mom_steals                   0.018979
+away_mom_assists                  0.018979
+away_mom_pts_off_to               0.018979
+away_mom_pts_fastbrk              0.018979
+away_roll_turnovers               0.018979
+away_roll_total_reb               0.018979
+away_roll_tp_made                 0.018979
+away_roll_tp_att                  0.018979
+diff_pyth_exp                     0.018979
+diff_adj_drb_rate                 0.018979
+diff_adj_orb_rate                 0.018979
+home_srs                          0.018979
+away_roll_def_reb                 0.018979
+away_roll_off_reb                 0.018979
+away_roll_ft_att                  0.018979
+away_roll_ft_made                 0.018979
+away_roll_fg_made                 0.018979
+away_mom_pyth_luck                0.018979
+away_mom_pyth_exp                 0.018979
+away_mom_adj_drb_rate             0.018979
+away_mom_shot_sel_rate            0.018979
+away_mom_adj_orb_rate             0.018979
+away_mom_true_shooting            0.018979
+away_mom_forced_to_rate           0.018979
+diff_ft_rate                      0.018979
+diff_efg                          0.018979
+diff_mom_orb_pct                  0.018979
+diff_mom_ft_rate                  0.018979
+away_mom_game_score               0.018979
+diff_forced_to_rate               0.018979
+away_mom_efg_pct                  0.018979
+away_roll_pts_fastbrk             0.018979
+away_roll_pyth_exp                0.018979
+away_roll_pyth_luck               0.018979
+away_roll_adj_drb_rate            0.018979
+away_roll_adj_orb_rate            0.018979
+away_roll_shot_sel_rate           0.018979
+away_roll_forced_to_rate          0.018979
+away_mom_tp_att                   0.018979
+away_mom_tp_made                  0.018979
+diff_orb_pct                      0.018979
+diff_mom_efg                      0.018979
+diff_pyth_luck                    0.018979
+
+============================================================
+missing_values_by_year.png
+============================================================
+Missing values by season (rows = seasons, columns = features)
+
+============================================================
+correlation_check.png
+============================================================
+Top 15 most correlated:
+home_won              0.762337
+diff_srs              0.632928
+spread               -0.630713
+diff_elo              0.513816
+diff_pyth_exp         0.385761
+away_srs             -0.363214
+away_adj_rank         0.344948
+home_srs              0.325291
+home_adj_rank        -0.315587
+diff_adj_net          0.304213
+away_elo_pre         -0.286155
+home_seed            -0.274370
+diff_efg              0.265407
+away_seed             0.254566
+away_roll_pyth_exp   -0.250565
+
+Bottom 5 (weakest signal):
+away_roll_shot_sel_disruption    0.002184
+home_roll_shot_sel_rate         -0.001430
+home_mom_forced_to_rate         -0.000875
+away_roll_to_disruption         -0.000596
+diff_mom_orb_pct                -0.000532
+
+============================================================
+target_distribution.png
+============================================================
+Home win rate: 66.1%
+Mean point diff: +5.95
+Std point diff: 14.39
+Tournament home win rate: 66.5% (neutral site games included)
+Regular season home win rate: 66.0%
+
+============================================================
+season_coverage.png
+============================================================
+ season  games  home_wr  avg_diff  tourn_games
+   2014    520 0.657692  5.711538          144
+   2015    527 0.658444  5.309298          145
+   2016    534 0.661049  6.380150          147
+   2017    519 0.684008  6.410405          125
+   2018    486 0.648148  5.251029          130
+   2019    520 0.692308  6.553846          140
+   2020    366 0.631148  4.439891            0
+   2021    364 0.659341  7.788462           87
+   2022    484 0.632231  5.231405          130
+   2023    460 0.695652  6.500000          112
+   2024    491 0.645621  5.912424          120
+
+============================================================
+missing_values.png
+============================================================
+Columns with missing data:
+home_seed                        87.459685
+away_seed                        87.459685
+tournament                       78.239423
+over_under                       42.117245
+spread                           38.967938
+excitement                        6.033011
+state                             2.864732
+adj_net_if_available              1.555682
+diff_adj_net                      1.555682
+away_adj_off                      1.214191
+away_adj_def                      1.214191
+away_adj_net                      1.214191
+away_adj_rank                     1.214191
+diff_turnover_disruption          0.910643
+diff_tempo_control                0.910643
+diff_best_net_eff                 0.588124
+away_roll_to_disruption           0.512237
+away_roll_tempo_control           0.512237
+diff_adj_def_eff                  0.493265
+diff_adj_net_eff                  0.493265
+diff_adj_off_eff                  0.474293
+home_roll_tempo_control           0.436350
+home_roll_to_disruption           0.436350
+diff_srs                          0.398406
+away_srs                          0.379435
+home_adj_net                      0.360463
+home_adj_off                      0.360463
+home_adj_rank                     0.360463
+home_adj_def                      0.360463
+home_roll_adj_net_eff_game        0.303548
+home_roll_adj_off_eff_game        0.303548
+home_roll_adj_def_eff_game        0.303548
+away_roll_adj_net_eff_game        0.208689
+away_roll_adj_def_eff_game        0.208689
+away_roll_adj_off_eff_game        0.189717
+diff_to_ratio                     0.132802
+diff_roll_off_eff                 0.132802
+diff_mom_to_ratio                 0.132802
+diff_roll_def_eff                 0.132802
+diff_unforced_to_rate             0.132802
+pace_mismatch                     0.132802
+diff_roll_net_eff                 0.132802
+diff_off_rating                   0.132802
+diff_shot_sel_disruption          0.113830
+diff_orb_disruption               0.113830
+home_roll_off_rating              0.094859
+home_roll_to_rate_per_poss        0.094859
+home_roll_unforced_to_rate        0.094859
+home_mom_pace                     0.094859
+home_mom_unforced_to_rate         0.094859
+home_mom_to_rate_per_poss         0.094859
+home_roll_to_ratio                0.094859
+home_mom_off_rating               0.094859
+home_mom_to_ratio                 0.094859
+home_roll_off_eff_game            0.094859
+home_roll_def_eff_game            0.094859
+home_roll_avg_poss                0.094859
+home_roll_pace                    0.094859
+home_roll_net_eff                 0.094859
+home_mom_off_eff_game             0.094859
+home_mom_def_eff_game             0.094859
+home_roll_shot_sel_disruption     0.056915
+home_roll_orb_disruption          0.056915
+away_roll_orb_disruption          0.056915
+away_roll_shot_sel_disruption     0.056915
+away_roll_def_eff_game            0.037943
+away_roll_unforced_to_rate        0.037943
+away_roll_pace                    0.037943
+away_roll_to_ratio                0.037943
+away_mom_to_ratio                 0.037943
+away_roll_off_rating              0.037943
+away_roll_to_rate_per_poss        0.037943
+away_roll_off_eff_game            0.037943
+away_roll_net_eff                 0.037943
+away_mom_off_eff_game             0.037943
+away_mom_pace                     0.037943
+away_mom_off_rating               0.037943
+away_mom_to_rate_per_poss         0.037943
+away_mom_def_eff_game             0.037943
+away_mom_unforced_to_rate         0.037943
+away_roll_avg_poss                0.037943
+away_roll_steals                  0.018972
+away_roll_pts_fastbrk             0.018972
+away_roll_blocks                  0.018972
+away_roll_pts_off_to              0.018972
+away_roll_adj_orb_rate            0.018972
+away_roll_tp_pct                  0.018972
+away_roll_fg_att                  0.018972
+away_roll_fg_made                 0.018972
+away_roll_fg_pct                  0.018972
+away_roll_turnovers               0.018972
+away_roll_pts_paint               0.018972
+away_roll_game_score              0.018972
+away_roll_efg_pct                 0.018972
+away_roll_orb_pct                 0.018972
+away_roll_ft_rate                 0.018972
+away_mom_fg_made                  0.018972
+away_mom_fg_att                   0.018972
+away_mom_tp_pct                   0.018972
+away_mom_tp_made                  0.018972
+away_mom_tp_att                   0.018972
+away_mom_orb_pct                  0.018972
+away_mom_true_shooting            0.018972
+away_mom_pts_fastbrk              0.018972
+away_mom_off_reb                  0.018972
+away_mom_ft_att                   0.018972
+away_mom_total_reb                0.018972
+away_mom_turnovers                0.018972
+away_mom_pts_paint                0.018972
+away_mom_def_reb                  0.018972
+away_mom_game_score               0.018972
+away_mom_steals                   0.018972
+away_mom_assists                  0.018972
+away_mom_pts_off_to               0.018972
+away_roll_tp_made                 0.018972
+away_roll_tp_att                  0.018972
+away_roll_ft_made                 0.018972
+away_roll_ft_att                  0.018972
+diff_pyth_luck                    0.018972
+diff_pyth_exp                     0.018972
+diff_adj_drb_rate                 0.018972
+diff_adj_orb_rate                 0.018972
+away_roll_total_reb               0.018972
+away_roll_def_reb                 0.018972
+away_roll_off_reb                 0.018972
+away_roll_shot_sel_rate           0.018972
+away_roll_assists                 0.018972
+away_mom_adj_drb_rate             0.018972
+away_mom_forced_to_rate           0.018972
+away_mom_shot_sel_rate            0.018972
+home_srs                          0.018972
+away_mom_adj_orb_rate             0.018972
+away_mom_pyth_exp                 0.018972
+away_mom_pyth_luck                0.018972
+diff_efg                          0.018972
+diff_orb_pct                      0.018972
+diff_ft_rate                      0.018972
+diff_mom_ft_rate                  0.018972
+diff_mom_efg                      0.018972
+diff_forced_to_rate               0.018972
+away_mom_fg_pct                   0.018972
+away_mom_ft_rate                  0.018972
+away_mom_efg_pct                  0.018972
+away_roll_pyth_luck               0.018972
+away_roll_true_shooting           0.018972
+away_roll_adj_drb_rate            0.018972
+away_roll_pyth_exp                0.018972
+away_roll_forced_to_rate          0.018972
+away_mom_ft_made                  0.018972
+away_mom_blocks                   0.018972
+diff_mom_orb_pct                  0.018972
+
+============================================================
+missing_values_by_year.png
+============================================================
+Missing values by season (rows = seasons, columns = features)
+
+============================================================
+correlation_check.png
+============================================================
+Top 15 most correlated:
+home_won              0.762505
+diff_srs              0.633464
+spread               -0.631663
+diff_elo              0.514165
+diff_pyth_exp         0.390015
+away_srs             -0.363770
+away_adj_rank         0.345397
+home_srs              0.326606
+home_adj_rank        -0.315494
+diff_adj_net          0.304251
+away_elo_pre         -0.286019
+home_seed            -0.274370
+diff_efg              0.266905
+away_seed             0.254566
+away_roll_pyth_exp   -0.254538
+
+Bottom 5 (weakest signal):
+home_roll_shot_sel_rate   -0.001921
+home_mom_tp_att            0.001144
+has_seed                   0.000875
+away_mom_pts_off_to       -0.000380
+away_mom_fg_att            0.000265
+
+============================================================
+target_distribution.png
+============================================================
+Home win rate: 66.1%
+Mean point diff: +5.95
+Std point diff: 14.39
+Tournament home win rate: 66.5% (neutral site games included)
+Regular season home win rate: 66.0%
+
+============================================================
+season_coverage.png
+============================================================
+ season  games  home_wr  avg_diff  tourn_games
+   2014    520 0.657692  5.711538          144
+   2015    527 0.658444  5.309298          145
+   2016    534 0.661049  6.380150          147
+   2017    519 0.684008  6.410405          125
+   2018    486 0.648148  5.251029          130
+   2019    520 0.692308  6.553846          140
+   2020    366 0.631148  4.439891            0
+   2021    364 0.659341  7.788462           87
+   2022    484 0.632231  5.231405          130
+   2023    460 0.695652  6.500000          112
+   2024    491 0.645621  5.912424          120
+
+============================================================
+missing_values.png
+============================================================
+Columns with missing data:
+home_seed                        87.459685
+away_seed                        87.459685
+tournament                       78.239423
+over_under                       42.117245
+spread                           38.967938
+excitement                        6.033011
+state                             2.864732
+adj_net_if_available              1.555682
+diff_adj_net                      1.555682
+away_adj_off                      1.214191
+away_adj_def                      1.214191
+away_adj_net                      1.214191
+away_adj_rank                     1.214191
+diff_turnover_disruption          0.910643
+diff_tempo_control                0.910643
+diff_best_net_eff                 0.588124
+away_roll_to_disruption           0.512237
+away_roll_tempo_control           0.512237
+diff_adj_def_eff                  0.493265
+diff_adj_net_eff                  0.493265
+diff_adj_off_eff                  0.474293
+home_roll_tempo_control           0.436350
+home_roll_to_disruption           0.436350
+diff_srs                          0.398406
+away_srs                          0.379435
+home_adj_net                      0.360463
+home_adj_off                      0.360463
+home_adj_rank                     0.360463
+home_adj_def                      0.360463
+home_roll_adj_net_eff_game        0.303548
+home_roll_adj_off_eff_game        0.303548
+home_roll_adj_def_eff_game        0.303548
+away_roll_adj_net_eff_game        0.208689
+away_roll_adj_def_eff_game        0.208689
+away_roll_adj_off_eff_game        0.189717
+diff_to_ratio                     0.132802
+diff_roll_off_eff                 0.132802
+diff_mom_to_ratio                 0.132802
+diff_roll_def_eff                 0.132802
+diff_unforced_to_rate             0.132802
+pace_mismatch                     0.132802
+diff_roll_net_eff                 0.132802
+diff_off_rating                   0.132802
+diff_shot_sel_disruption          0.113830
+diff_orb_disruption               0.113830
+home_roll_off_rating              0.094859
+home_roll_to_rate_per_poss        0.094859
+home_roll_unforced_to_rate        0.094859
+home_mom_pace                     0.094859
+home_mom_unforced_to_rate         0.094859
+home_mom_to_rate_per_poss         0.094859
+home_roll_to_ratio                0.094859
+home_mom_off_rating               0.094859
+home_mom_to_ratio                 0.094859
+home_roll_off_eff_game            0.094859
+home_roll_def_eff_game            0.094859
+home_roll_avg_poss                0.094859
+home_roll_pace                    0.094859
+home_roll_net_eff                 0.094859
+home_mom_off_eff_game             0.094859
+home_mom_def_eff_game             0.094859
+home_roll_shot_sel_disruption     0.056915
+home_roll_orb_disruption          0.056915
+away_roll_orb_disruption          0.056915
+away_roll_shot_sel_disruption     0.056915
+away_roll_def_eff_game            0.037943
+away_roll_unforced_to_rate        0.037943
+away_roll_pace                    0.037943
+away_roll_to_ratio                0.037943
+away_mom_to_ratio                 0.037943
+away_roll_off_rating              0.037943
+away_roll_to_rate_per_poss        0.037943
+away_roll_off_eff_game            0.037943
+away_roll_net_eff                 0.037943
+away_mom_off_eff_game             0.037943
+away_mom_pace                     0.037943
+away_mom_off_rating               0.037943
+away_mom_to_rate_per_poss         0.037943
+away_mom_def_eff_game             0.037943
+away_mom_unforced_to_rate         0.037943
+away_roll_avg_poss                0.037943
+away_roll_steals                  0.018972
+away_roll_pts_fastbrk             0.018972
+away_roll_blocks                  0.018972
+away_roll_pts_off_to              0.018972
+away_roll_adj_orb_rate            0.018972
+away_roll_tp_pct                  0.018972
+away_roll_fg_att                  0.018972
+away_roll_fg_made                 0.018972
+away_roll_fg_pct                  0.018972
+away_roll_turnovers               0.018972
+away_roll_pts_paint               0.018972
+away_roll_game_score              0.018972
+away_roll_efg_pct                 0.018972
+away_roll_orb_pct                 0.018972
+away_roll_ft_rate                 0.018972
+away_mom_fg_made                  0.018972
+away_mom_fg_att                   0.018972
+away_mom_tp_pct                   0.018972
+away_mom_tp_made                  0.018972
+away_mom_tp_att                   0.018972
+away_mom_orb_pct                  0.018972
+away_mom_true_shooting            0.018972
+away_mom_pts_fastbrk              0.018972
+away_mom_off_reb                  0.018972
+away_mom_ft_att                   0.018972
+away_mom_total_reb                0.018972
+away_mom_turnovers                0.018972
+away_mom_pts_paint                0.018972
+away_mom_def_reb                  0.018972
+away_mom_game_score               0.018972
+away_mom_steals                   0.018972
+away_mom_assists                  0.018972
+away_mom_pts_off_to               0.018972
+away_roll_tp_made                 0.018972
+away_roll_tp_att                  0.018972
+away_roll_ft_made                 0.018972
+away_roll_ft_att                  0.018972
+diff_pyth_luck                    0.018972
+diff_pyth_exp                     0.018972
+diff_adj_drb_rate                 0.018972
+diff_adj_orb_rate                 0.018972
+away_roll_total_reb               0.018972
+away_roll_def_reb                 0.018972
+away_roll_off_reb                 0.018972
+away_roll_shot_sel_rate           0.018972
+away_roll_assists                 0.018972
+away_mom_adj_drb_rate             0.018972
+away_mom_forced_to_rate           0.018972
+away_mom_shot_sel_rate            0.018972
+home_srs                          0.018972
+away_mom_adj_orb_rate             0.018972
+away_mom_pyth_exp                 0.018972
+away_mom_pyth_luck                0.018972
+diff_efg                          0.018972
+diff_orb_pct                      0.018972
+diff_ft_rate                      0.018972
+diff_mom_ft_rate                  0.018972
+diff_mom_efg                      0.018972
+diff_forced_to_rate               0.018972
+away_mom_fg_pct                   0.018972
+away_mom_ft_rate                  0.018972
+away_mom_efg_pct                  0.018972
+away_roll_pyth_luck               0.018972
+away_roll_true_shooting           0.018972
+away_roll_adj_drb_rate            0.018972
+away_roll_pyth_exp                0.018972
+away_roll_forced_to_rate          0.018972
+away_mom_ft_made                  0.018972
+away_mom_blocks                   0.018972
+diff_mom_orb_pct                  0.018972
+
+============================================================
+missing_values_by_year.png
+============================================================
+Missing values by season (rows = seasons, columns = features)
+
+============================================================
+correlation_check.png
+============================================================
+Top 15 most correlated:
+home_won              0.762505
+diff_srs              0.633464
+spread               -0.631663
+diff_elo              0.514165
+diff_pyth_exp         0.390015
+away_srs             -0.363770
+away_adj_rank         0.345397
+home_srs              0.326606
+home_adj_rank        -0.315494
+diff_adj_net          0.304251
+away_elo_pre         -0.286019
+home_seed            -0.274370
+diff_efg              0.266905
+away_seed             0.254566
+away_roll_pyth_exp   -0.254538
+
+Bottom 5 (weakest signal):
+home_roll_shot_sel_rate   -0.001921
+home_mom_tp_att            0.001144
+has_seed                   0.000875
+away_mom_pts_off_to       -0.000380
+away_mom_fg_att            0.000265
+
+============================================================
+target_distribution.png
+============================================================
+Home win rate: 66.1%
+Mean point diff: +5.95
+Std point diff: 14.39
+Tournament home win rate: 66.5% (neutral site games included)
+Regular season home win rate: 66.0%
+
+============================================================
+season_coverage.png
+============================================================
+ season  games  home_wr  avg_diff  tourn_games
+   2014    520 0.657692  5.711538          144
+   2015    527 0.658444  5.309298          145
+   2016    534 0.661049  6.380150          147
+   2017    519 0.684008  6.410405          125
+   2018    486 0.648148  5.251029          130
+   2019    520 0.692308  6.553846          140
+   2020    366 0.631148  4.439891            0
+   2021    364 0.659341  7.788462           87
+   2022    484 0.632231  5.231405          130
+   2023    460 0.695652  6.500000          112
+   2024    491 0.645621  5.912424          120
+
+============================================================
+missing_values.png
+============================================================
+Columns with missing data:
+home_seed                        87.459685
+away_seed                        87.459685
+tournament                       78.239423
+over_under                       42.117245
+spread                           38.967938
+excitement                        6.033011
+state                             2.864732
+adj_net_if_available              1.555682
+diff_adj_net                      1.555682
+away_adj_off                      1.214191
+away_adj_def                      1.214191
+away_adj_net                      1.214191
+away_adj_rank                     1.214191
+diff_turnover_disruption          0.910643
+diff_tempo_control                0.910643
+diff_best_net_eff                 0.588124
+away_roll_to_disruption           0.512237
+away_roll_tempo_control           0.512237
+diff_adj_def_eff                  0.493265
+diff_adj_net_eff                  0.493265
+diff_adj_off_eff                  0.474293
+home_roll_tempo_control           0.436350
+home_roll_to_disruption           0.436350
+diff_srs                          0.398406
+away_srs                          0.379435
+home_adj_net                      0.360463
+home_adj_off                      0.360463
+home_adj_rank                     0.360463
+home_adj_def                      0.360463
+home_roll_adj_net_eff_game        0.303548
+home_roll_adj_off_eff_game        0.303548
+home_roll_adj_def_eff_game        0.303548
+away_roll_adj_net_eff_game        0.208689
+away_roll_adj_def_eff_game        0.208689
+away_roll_adj_off_eff_game        0.189717
+diff_to_ratio                     0.132802
+diff_roll_off_eff                 0.132802
+diff_mom_to_ratio                 0.132802
+diff_roll_def_eff                 0.132802
+diff_unforced_to_rate             0.132802
+pace_mismatch                     0.132802
+diff_roll_net_eff                 0.132802
+diff_off_rating                   0.132802
+diff_shot_sel_disruption          0.113830
+diff_orb_disruption               0.113830
+home_roll_off_rating              0.094859
+home_roll_to_rate_per_poss        0.094859
+home_roll_unforced_to_rate        0.094859
+home_mom_pace                     0.094859
+home_mom_unforced_to_rate         0.094859
+home_mom_to_rate_per_poss         0.094859
+home_roll_to_ratio                0.094859
+home_mom_off_rating               0.094859
+home_mom_to_ratio                 0.094859
+home_roll_off_eff_game            0.094859
+home_roll_def_eff_game            0.094859
+home_roll_avg_poss                0.094859
+home_roll_pace                    0.094859
+home_roll_net_eff                 0.094859
+home_mom_off_eff_game             0.094859
+home_mom_def_eff_game             0.094859
+home_roll_shot_sel_disruption     0.056915
+home_roll_orb_disruption          0.056915
+away_roll_orb_disruption          0.056915
+away_roll_shot_sel_disruption     0.056915
+away_roll_def_eff_game            0.037943
+away_roll_unforced_to_rate        0.037943
+away_roll_pace                    0.037943
+away_roll_to_ratio                0.037943
+away_mom_to_ratio                 0.037943
+away_roll_off_rating              0.037943
+away_roll_to_rate_per_poss        0.037943
+away_roll_off_eff_game            0.037943
+away_roll_net_eff                 0.037943
+away_mom_off_eff_game             0.037943
+away_mom_pace                     0.037943
+away_mom_off_rating               0.037943
+away_mom_to_rate_per_poss         0.037943
+away_mom_def_eff_game             0.037943
+away_mom_unforced_to_rate         0.037943
+away_roll_avg_poss                0.037943
+away_roll_steals                  0.018972
+away_roll_pts_fastbrk             0.018972
+away_roll_blocks                  0.018972
+away_roll_pts_off_to              0.018972
+away_roll_adj_orb_rate            0.018972
+away_roll_tp_pct                  0.018972
+away_roll_fg_att                  0.018972
+away_roll_fg_made                 0.018972
+away_roll_fg_pct                  0.018972
+away_roll_turnovers               0.018972
+away_roll_pts_paint               0.018972
+away_roll_game_score              0.018972
+away_roll_efg_pct                 0.018972
+away_roll_orb_pct                 0.018972
+away_roll_ft_rate                 0.018972
+away_mom_fg_made                  0.018972
+away_mom_fg_att                   0.018972
+away_mom_tp_pct                   0.018972
+away_mom_tp_made                  0.018972
+away_mom_tp_att                   0.018972
+away_mom_orb_pct                  0.018972
+away_mom_true_shooting            0.018972
+away_mom_pts_fastbrk              0.018972
+away_mom_off_reb                  0.018972
+away_mom_ft_att                   0.018972
+away_mom_total_reb                0.018972
+away_mom_turnovers                0.018972
+away_mom_pts_paint                0.018972
+away_mom_def_reb                  0.018972
+away_mom_game_score               0.018972
+away_mom_steals                   0.018972
+away_mom_assists                  0.018972
+away_mom_pts_off_to               0.018972
+away_roll_tp_made                 0.018972
+away_roll_tp_att                  0.018972
+away_roll_ft_made                 0.018972
+away_roll_ft_att                  0.018972
+diff_pyth_luck                    0.018972
+diff_pyth_exp                     0.018972
+diff_adj_drb_rate                 0.018972
+diff_adj_orb_rate                 0.018972
+away_roll_total_reb               0.018972
+away_roll_def_reb                 0.018972
+away_roll_off_reb                 0.018972
+away_roll_shot_sel_rate           0.018972
+away_roll_assists                 0.018972
+away_mom_adj_drb_rate             0.018972
+away_mom_forced_to_rate           0.018972
+away_mom_shot_sel_rate            0.018972
+home_srs                          0.018972
+away_mom_adj_orb_rate             0.018972
+away_mom_pyth_exp                 0.018972
+away_mom_pyth_luck                0.018972
+diff_efg                          0.018972
+diff_orb_pct                      0.018972
+diff_ft_rate                      0.018972
+diff_mom_ft_rate                  0.018972
+diff_mom_efg                      0.018972
+diff_forced_to_rate               0.018972
+away_mom_fg_pct                   0.018972
+away_mom_ft_rate                  0.018972
+away_mom_efg_pct                  0.018972
+away_roll_pyth_luck               0.018972
+away_roll_true_shooting           0.018972
+away_roll_adj_drb_rate            0.018972
+away_roll_pyth_exp                0.018972
+away_roll_forced_to_rate          0.018972
+away_mom_ft_made                  0.018972
+away_mom_blocks                   0.018972
+diff_mom_orb_pct                  0.018972
+
+============================================================
+missing_values_by_year.png
+============================================================
+Missing values by season (rows = seasons, columns = features)
+
+============================================================
+correlation_check.png
+============================================================
+Top 15 most correlated:
+home_won              0.762505
+diff_srs              0.633464
+spread               -0.631663
+diff_elo              0.514165
+diff_pyth_exp         0.390015
+away_srs             -0.363770
+away_adj_rank         0.345397
+home_srs              0.326606
+home_adj_rank        -0.315494
+diff_adj_net          0.304251
+away_elo_pre         -0.286019
+home_seed            -0.274370
+diff_efg              0.266905
+away_seed             0.254566
+away_roll_pyth_exp   -0.254538
+
+Bottom 5 (weakest signal):
+home_roll_shot_sel_rate   -0.001921
+home_mom_tp_att            0.001144
+has_seed                   0.000875
+away_mom_pts_off_to       -0.000380
+away_mom_fg_att            0.000265
+
+============================================================
+target_distribution.png
+============================================================
+Home win rate: 66.1%
+Mean point diff: +5.95
+Std point diff: 14.39
+Tournament home win rate: 66.5% (neutral site games included)
+Regular season home win rate: 66.0%
+
+============================================================
+season_coverage.png
+============================================================
+ season  games  home_wr  avg_diff  tourn_games
+   2014    520 0.657692  5.711538          144
+   2015    527 0.658444  5.309298          145
+   2016    534 0.661049  6.380150          147
+   2017    519 0.684008  6.410405          125
+   2018    486 0.648148  5.251029          130
+   2019    520 0.692308  6.553846          140
+   2020    366 0.631148  4.439891            0
+   2021    364 0.659341  7.788462           87
+   2022    484 0.632231  5.231405          130
+   2023    460 0.695652  6.500000          112
+   2024    491 0.645621  5.912424          120
+
+============================================================
+missing_values.png
+============================================================
+Columns with missing data:
+home_seed                        87.459685
+away_seed                        87.459685
+tournament                       78.239423
+over_under                       42.117245
+spread                           38.967938
+excitement                        6.033011
+state                             2.864732
+adj_net_if_available              1.555682
+diff_adj_net                      1.555682
+away_adj_off                      1.214191
+away_adj_def                      1.214191
+away_adj_net                      1.214191
+away_adj_rank                     1.214191
+diff_turnover_disruption          0.910643
+diff_tempo_control                0.910643
+diff_best_net_eff                 0.588124
+away_roll_to_disruption           0.512237
+away_roll_tempo_control           0.512237
+diff_adj_def_eff                  0.493265
+diff_adj_net_eff                  0.493265
+diff_adj_off_eff                  0.474293
+home_roll_tempo_control           0.436350
+home_roll_to_disruption           0.436350
+diff_srs                          0.398406
+away_srs                          0.379435
+home_adj_net                      0.360463
+home_adj_off                      0.360463
+home_adj_rank                     0.360463
+home_adj_def                      0.360463
+home_roll_adj_net_eff_game        0.303548
+home_roll_adj_off_eff_game        0.303548
+home_roll_adj_def_eff_game        0.303548
+away_roll_adj_net_eff_game        0.208689
+away_roll_adj_def_eff_game        0.208689
+away_roll_adj_off_eff_game        0.189717
+diff_to_ratio                     0.132802
+diff_roll_off_eff                 0.132802
+diff_mom_to_ratio                 0.132802
+diff_roll_def_eff                 0.132802
+diff_unforced_to_rate             0.132802
+pace_mismatch                     0.132802
+diff_roll_net_eff                 0.132802
+diff_off_rating                   0.132802
+diff_shot_sel_disruption          0.113830
+diff_orb_disruption               0.113830
+home_roll_off_rating              0.094859
+home_roll_to_rate_per_poss        0.094859
+home_roll_unforced_to_rate        0.094859
+home_mom_pace                     0.094859
+home_mom_unforced_to_rate         0.094859
+home_mom_to_rate_per_poss         0.094859
+home_roll_to_ratio                0.094859
+home_mom_off_rating               0.094859
+home_mom_to_ratio                 0.094859
+home_roll_off_eff_game            0.094859
+home_roll_def_eff_game            0.094859
+home_roll_avg_poss                0.094859
+home_roll_pace                    0.094859
+home_roll_net_eff                 0.094859
+home_mom_off_eff_game             0.094859
+home_mom_def_eff_game             0.094859
+home_roll_shot_sel_disruption     0.056915
+home_roll_orb_disruption          0.056915
+away_roll_orb_disruption          0.056915
+away_roll_shot_sel_disruption     0.056915
+away_roll_def_eff_game            0.037943
+away_roll_unforced_to_rate        0.037943
+away_roll_pace                    0.037943
+away_roll_to_ratio                0.037943
+away_mom_to_ratio                 0.037943
+away_roll_off_rating              0.037943
+away_roll_to_rate_per_poss        0.037943
+away_roll_off_eff_game            0.037943
+away_roll_net_eff                 0.037943
+away_mom_off_eff_game             0.037943
+away_mom_pace                     0.037943
+away_mom_off_rating               0.037943
+away_mom_to_rate_per_poss         0.037943
+away_mom_def_eff_game             0.037943
+away_mom_unforced_to_rate         0.037943
+away_roll_avg_poss                0.037943
+away_roll_steals                  0.018972
+away_roll_pts_fastbrk             0.018972
+away_roll_blocks                  0.018972
+away_roll_pts_off_to              0.018972
+away_roll_adj_orb_rate            0.018972
+away_roll_tp_pct                  0.018972
+away_roll_fg_att                  0.018972
+away_roll_fg_made                 0.018972
+away_roll_fg_pct                  0.018972
+away_roll_turnovers               0.018972
+away_roll_pts_paint               0.018972
+away_roll_game_score              0.018972
+away_roll_efg_pct                 0.018972
+away_roll_orb_pct                 0.018972
+away_roll_ft_rate                 0.018972
+away_mom_fg_made                  0.018972
+away_mom_fg_att                   0.018972
+away_mom_tp_pct                   0.018972
+away_mom_tp_made                  0.018972
+away_mom_tp_att                   0.018972
+away_mom_orb_pct                  0.018972
+away_mom_true_shooting            0.018972
+away_mom_pts_fastbrk              0.018972
+away_mom_off_reb                  0.018972
+away_mom_ft_att                   0.018972
+away_mom_total_reb                0.018972
+away_mom_turnovers                0.018972
+away_mom_pts_paint                0.018972
+away_mom_def_reb                  0.018972
+away_mom_game_score               0.018972
+away_mom_steals                   0.018972
+away_mom_assists                  0.018972
+away_mom_pts_off_to               0.018972
+away_roll_tp_made                 0.018972
+away_roll_tp_att                  0.018972
+away_roll_ft_made                 0.018972
+away_roll_ft_att                  0.018972
+diff_pyth_luck                    0.018972
+diff_pyth_exp                     0.018972
+diff_adj_drb_rate                 0.018972
+diff_adj_orb_rate                 0.018972
+away_roll_total_reb               0.018972
+away_roll_def_reb                 0.018972
+away_roll_off_reb                 0.018972
+away_roll_shot_sel_rate           0.018972
+away_roll_assists                 0.018972
+away_mom_adj_drb_rate             0.018972
+away_mom_forced_to_rate           0.018972
+away_mom_shot_sel_rate            0.018972
+home_srs                          0.018972
+away_mom_adj_orb_rate             0.018972
+away_mom_pyth_exp                 0.018972
+away_mom_pyth_luck                0.018972
+diff_efg                          0.018972
+diff_orb_pct                      0.018972
+diff_ft_rate                      0.018972
+diff_mom_ft_rate                  0.018972
+diff_mom_efg                      0.018972
+diff_forced_to_rate               0.018972
+away_mom_fg_pct                   0.018972
+away_mom_ft_rate                  0.018972
+away_mom_efg_pct                  0.018972
+away_roll_pyth_luck               0.018972
+away_roll_true_shooting           0.018972
+away_roll_adj_drb_rate            0.018972
+away_roll_pyth_exp                0.018972
+away_roll_forced_to_rate          0.018972
+away_mom_ft_made                  0.018972
+away_mom_blocks                   0.018972
+diff_mom_orb_pct                  0.018972
+
+============================================================
+missing_values_by_year.png
+============================================================
+Missing values by season (rows = seasons, columns = features)
+
+============================================================
+correlation_check.png
+============================================================
+Top 15 most correlated:
+home_won              0.762505
+diff_srs              0.633464
+spread               -0.631663
+diff_elo              0.514165
+diff_pyth_exp         0.390015
+away_srs             -0.363770
+away_adj_rank         0.345397
+home_srs              0.326606
+home_adj_rank        -0.315494
+diff_adj_net          0.304251
+away_elo_pre         -0.286019
+home_seed            -0.274370
+diff_efg              0.266905
+away_seed             0.254566
+away_roll_pyth_exp   -0.254538
+
+Bottom 5 (weakest signal):
+home_roll_shot_sel_rate   -0.001921
+home_mom_tp_att            0.001144
+has_seed                   0.000875
+away_mom_pts_off_to       -0.000380
+away_mom_fg_att            0.000265
+
+============================================================
+target_distribution.png
+============================================================
+Home win rate: 66.1%
+Mean point diff: +5.95
+Std point diff: 14.39
+Tournament home win rate: 66.5% (neutral site games included)
+Regular season home win rate: 66.0%
+
+============================================================
+season_coverage.png
+============================================================
+ season  games  home_wr  avg_diff  tourn_games
+   2014    520 0.657692  5.711538          144
+   2015    527 0.658444  5.309298          145
+   2016    534 0.661049  6.380150          147
+   2017    519 0.684008  6.410405          125
+   2018    486 0.648148  5.251029          130
+   2019    520 0.692308  6.553846          140
+   2020    366 0.631148  4.439891            0
+   2021    364 0.659341  7.788462           87
+   2022    484 0.632231  5.231405          130
+   2023    460 0.695652  6.500000          112
+   2024    491 0.645621  5.912424          120
+
+============================================================
+missing_values.png
+============================================================
+Columns with missing data:
+home_seed                        87.459685
+away_seed                        87.459685
+tournament                       78.239423
+over_under                       42.117245
+spread                           38.967938
+excitement                        6.033011
+state                             2.864732
+adj_net_if_available              1.555682
+diff_adj_net                      1.555682
+away_adj_off                      1.214191
+away_adj_def                      1.214191
+away_adj_net                      1.214191
+away_adj_rank                     1.214191
+diff_turnover_disruption          0.910643
+diff_tempo_control                0.910643
+diff_best_net_eff                 0.588124
+away_roll_to_disruption           0.512237
+away_roll_tempo_control           0.512237
+diff_adj_def_eff                  0.493265
+diff_adj_net_eff                  0.493265
+diff_adj_off_eff                  0.474293
+home_roll_tempo_control           0.436350
+home_roll_to_disruption           0.436350
+diff_srs                          0.398406
+away_srs                          0.379435
+home_adj_net                      0.360463
+home_adj_off                      0.360463
+home_adj_rank                     0.360463
+home_adj_def                      0.360463
+home_roll_adj_net_eff_game        0.303548
+home_roll_adj_off_eff_game        0.303548
+home_roll_adj_def_eff_game        0.303548
+away_roll_adj_net_eff_game        0.208689
+away_roll_adj_def_eff_game        0.208689
+away_roll_adj_off_eff_game        0.189717
+diff_to_ratio                     0.132802
+diff_roll_off_eff                 0.132802
+diff_mom_to_ratio                 0.132802
+diff_roll_def_eff                 0.132802
+diff_unforced_to_rate             0.132802
+pace_mismatch                     0.132802
+diff_roll_net_eff                 0.132802
+diff_off_rating                   0.132802
+diff_shot_sel_disruption          0.113830
+diff_orb_disruption               0.113830
+home_roll_off_rating              0.094859
+home_roll_to_rate_per_poss        0.094859
+home_roll_unforced_to_rate        0.094859
+home_mom_pace                     0.094859
+home_mom_unforced_to_rate         0.094859
+home_mom_to_rate_per_poss         0.094859
+home_roll_to_ratio                0.094859
+home_mom_off_rating               0.094859
+home_mom_to_ratio                 0.094859
+home_roll_off_eff_game            0.094859
+home_roll_def_eff_game            0.094859
+home_roll_avg_poss                0.094859
+home_roll_pace                    0.094859
+home_roll_net_eff                 0.094859
+home_mom_off_eff_game             0.094859
+home_mom_def_eff_game             0.094859
+home_roll_shot_sel_disruption     0.056915
+home_roll_orb_disruption          0.056915
+away_roll_orb_disruption          0.056915
+away_roll_shot_sel_disruption     0.056915
+away_roll_def_eff_game            0.037943
+away_roll_unforced_to_rate        0.037943
+away_roll_pace                    0.037943
+away_roll_to_ratio                0.037943
+away_mom_to_ratio                 0.037943
+away_roll_off_rating              0.037943
+away_roll_to_rate_per_poss        0.037943
+away_roll_off_eff_game            0.037943
+away_roll_net_eff                 0.037943
+away_mom_off_eff_game             0.037943
+away_mom_pace                     0.037943
+away_mom_off_rating               0.037943
+away_mom_to_rate_per_poss         0.037943
+away_mom_def_eff_game             0.037943
+away_mom_unforced_to_rate         0.037943
+away_roll_avg_poss                0.037943
+away_roll_steals                  0.018972
+away_roll_pts_fastbrk             0.018972
+away_roll_blocks                  0.018972
+away_roll_pts_off_to              0.018972
+away_roll_adj_orb_rate            0.018972
+away_roll_tp_pct                  0.018972
+away_roll_fg_att                  0.018972
+away_roll_fg_made                 0.018972
+away_roll_fg_pct                  0.018972
+away_roll_turnovers               0.018972
+away_roll_pts_paint               0.018972
+away_roll_game_score              0.018972
+away_roll_efg_pct                 0.018972
+away_roll_orb_pct                 0.018972
+away_roll_ft_rate                 0.018972
+away_mom_fg_made                  0.018972
+away_mom_fg_att                   0.018972
+away_mom_tp_pct                   0.018972
+away_mom_tp_made                  0.018972
+away_mom_tp_att                   0.018972
+away_mom_orb_pct                  0.018972
+away_mom_true_shooting            0.018972
+away_mom_pts_fastbrk              0.018972
+away_mom_off_reb                  0.018972
+away_mom_ft_att                   0.018972
+away_mom_total_reb                0.018972
+away_mom_turnovers                0.018972
+away_mom_pts_paint                0.018972
+away_mom_def_reb                  0.018972
+away_mom_game_score               0.018972
+away_mom_steals                   0.018972
+away_mom_assists                  0.018972
+away_mom_pts_off_to               0.018972
+away_roll_tp_made                 0.018972
+away_roll_tp_att                  0.018972
+away_roll_ft_made                 0.018972
+away_roll_ft_att                  0.018972
+diff_pyth_luck                    0.018972
+diff_pyth_exp                     0.018972
+diff_adj_drb_rate                 0.018972
+diff_adj_orb_rate                 0.018972
+away_roll_total_reb               0.018972
+away_roll_def_reb                 0.018972
+away_roll_off_reb                 0.018972
+away_roll_shot_sel_rate           0.018972
+away_roll_assists                 0.018972
+away_mom_adj_drb_rate             0.018972
+away_mom_forced_to_rate           0.018972
+away_mom_shot_sel_rate            0.018972
+home_srs                          0.018972
+away_mom_adj_orb_rate             0.018972
+away_mom_pyth_exp                 0.018972
+away_mom_pyth_luck                0.018972
+diff_efg                          0.018972
+diff_orb_pct                      0.018972
+diff_ft_rate                      0.018972
+diff_mom_ft_rate                  0.018972
+diff_mom_efg                      0.018972
+diff_forced_to_rate               0.018972
+away_mom_fg_pct                   0.018972
+away_mom_ft_rate                  0.018972
+away_mom_efg_pct                  0.018972
+away_roll_pyth_luck               0.018972
+away_roll_true_shooting           0.018972
+away_roll_adj_drb_rate            0.018972
+away_roll_pyth_exp                0.018972
+away_roll_forced_to_rate          0.018972
+away_mom_ft_made                  0.018972
+away_mom_blocks                   0.018972
+diff_mom_orb_pct                  0.018972
+
+============================================================
+missing_values_by_year.png
+============================================================
+Missing values by season (rows = seasons, columns = features)
+
+============================================================
+correlation_check.png
+============================================================
+Top 15 most correlated:
+home_won              0.762505
+diff_srs              0.633464
+spread               -0.631663
+diff_elo              0.514165
+diff_pyth_exp         0.390015
+away_srs             -0.363770
+away_adj_rank         0.345397
+home_srs              0.326606
+home_adj_rank        -0.315494
+diff_adj_net          0.304251
+away_elo_pre         -0.286019
+home_seed            -0.274370
+diff_efg              0.266905
+away_seed             0.254566
+away_roll_pyth_exp   -0.254538
+
+Bottom 5 (weakest signal):
+home_roll_shot_sel_rate   -0.001921
+home_mom_tp_att            0.001144
+has_seed                   0.000875
+away_mom_pts_off_to       -0.000380
+away_mom_fg_att            0.000265

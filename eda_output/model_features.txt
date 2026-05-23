@@ -1,0 +1,23 @@
+# Model features
+
+# Keep:
+diff_to_ratio
+diff_ft_rate
+diff_best_net_eff
+diff_adj_off_eff
+diff_adj_def_eff
+diff_elo
+neutral_site
+diff_seed
+has_seed
+diff_pyth_exp
+diff_pyth_luck
+diff_tempo_control
+diff_shot_sel_disruption
+diff_turnover_disruption
+diff_orb_disruption
+pace_mismatch
+diff_forced_to_rate
+diff_unforced_to_rate
+diff_mom_efg
+diff_mom_orb_pct
