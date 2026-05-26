@@ -52,7 +52,7 @@ Feature sets include:
 **Historical Benchmarks:** Elo = 12.34 RMSE / 67.4% accuracy, Vegas = 11.30 RMSE / 74.4% accuracy
 
 **Validation Season Benchmark:** Elo = 62.9% accuracy
-
+***2024 was a particularly unpredictable season when looking at Elo.***
 ### Key Takeaways
 
 - Machine learning models outperformed the held-out Elo benchmark in win prediction accuracy.
