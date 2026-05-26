@@ -1,28 +1,15 @@
-# College Basketball Game Prediction Model
+# NCAA Basketball Game Prediction System
 
-Machine learning system for predicting NCAA basketball point differentials and win probabilities using Elo ratings, recreated efficiency metrics, rolling team statistics, and engineered stylistic matchup features.
-
-## Project Overview
-
-This project explores predictive modeling for NCAA basketball games using both traditional rating systems and custom-engineered matchup features.
-
-The system predicts:
-- Point differential (regression target)
-- Win probability (derived from predicted margin distributions)
+End-to-end machine learning framework for predicting NCAA basketball game margins and win probabilities using Elo ratings, recreated efficiency metrics, rolling team statistics, and engineered stylistic matchup features.
 
 The project emphasizes:
-- Leakage-free rolling feature engineering
-- Time-aware validation
-- Benchmark-driven evaluation against Elo and Vegas markets
-- Exploration of stylistic matchup effects beyond raw team strength
+- leakage-free temporal feature engineering
+- benchmark-driven evaluation against Elo and Vegas markets
+- probabilistic calibration
+- interpretable modeling workflows
+- exploration of stylistic interactions beyond raw team strength
 
-Feature sets include:
-- Elo ratings and recreated adjusted efficiencies
-- Rolling Four Factors statistics
-- Momentum-weighted performance metrics
-- Game control and disruption features
-- Pythagorean expectation and luck indicators
-
+> This repository was built to simulate a production-style sports analytics workflow rather than a one-off modeling experiment.
 ## Validation Results (2024 Season)
 
 ![Model Comparison](model_output/model_comparison.png)
@@ -52,14 +39,53 @@ Feature sets include:
 **Historical Benchmarks:** Elo = 12.34 RMSE / 67.4% accuracy, Vegas = 11.30 RMSE / 74.4% accuracy
 
 **Validation Season Benchmark:** Elo = 62.9% accuracy
-***2024 was a particularly unpredictable season when looking at Elo.***
+
+*2024 was a particularly unpredictable season when looking at Elo.*
 ### Key Takeaways
 
 - Machine learning models outperformed the held-out Elo benchmark in win prediction accuracy.
-- Linear models remained competitive with more complex tree-based approaches.
+- Regularized linear models remained highly competitive with more complex tree-based methods, suggesting that carefully engineered efficiency and matchup features captured much of the predictive signal without requiring heavily nonlinear model structures.
 - Vegas spreads remained the strongest benchmark overall.
 - Engineered stylistic matchup features provided signal beyond pure team strength metrics.
 
+*Vegas betting markets were intentionally used as a benchmark because they represent one of the strongest publicly available predictive baselines in sports analytics. Matching or approaching market performance is substantially more difficult than outperforming naive or rating-based systems.*
+
+## Prediction Targets
+
+The system predicts:
+
+- Point differential (primary regression target)
+- Win probability derived from predicted margin distributions
+
+Feature groups include:
+
+- Elo ratings and recreated adjusted efficiencies
+- Rolling Four Factors statistics
+- Momentum-weighted performance metrics
+- Game control and disruption features
+- Pythagorean expectation and luck indicators
+- Engineered stylistic matchup features
+
+## What Makes This Project Different
+
+Unlike many sports prediction projects that rely primarily on season-end metrics or simple box score aggregation, this system emphasizes:
+
+- strict temporal leakage prevention using shifted rolling features
+- time-aware cross validation
+- iterative recreation of adjusted efficiency metrics
+- probabilistic calibration rather than raw classification only
+- matchup-specific stylistic interactions
+- benchmark comparison against both Elo and betting markets
+- residual correction modeling layered on top of traditional rating systems
+
+Key technical challenges explored include:
+
+- stabilizing early-season team estimates
+- converting margin predictions into calibrated probabilities
+- separating opponent-driven effects from self-inflicted variance
+- benchmarking against efficient betting markets
+
+The project focuses as much on modeling methodology and evaluation rigor as on raw predictive performance.
 ## Modeling Approach
 
 Models were trained to predict point differential rather than directly predicting wins. Predicted margins were converted into win probabilities using estimated prediction uncertainty.
@@ -90,9 +116,9 @@ Hyperparameters for tree-based models were optimized using Optuna with time-awar
 ├── EDA.py                   # Exploratory analysis and feature investigation
 ├── Benchmarking.py          # Elo, Vegas, and naive benchmark evaluation
 ├── ModelTraining.py         # Model training, tuning, stacking, and evaluation
+├── eda_output/              # EDA charts and reports
 ├── benchmark_outputs/       # Benchmark charts and reports
 ├── model_output/            # Saved models and evaluation visualizations
-└── data/                    # Processed datasets
 ```
 
 ## Key Features
